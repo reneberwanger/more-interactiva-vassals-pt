@@ -1,95 +1,1434 @@
 ﻿l_spanish:
-  rule_improved_civil_wars_game_rules:0 "#high Vassalos Mais Interativos: Guerras Civis"
-  setting_improved_civil_wars_enabled:0 "Ativado"
-  setting_improved_civil_wars_enabled_desc:0 "Vassalos escolhem lados durante guerras civis: ficam com o suserano, declaram neutralidade ou ficam com os rebeldes e se juntam à facção deles."
-  setting_improved_civil_wars_disabled:0 "Desativado"
-  setting_improved_civil_wars_disabled_desc:0 ""
+rule_improved_civil_wars_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Guerras Civis"
+setting_improved_civil_wars_enabled:0 "Ativado"
+setting_improved_civil_wars_enabled_desc:0 "No início de uma guerra civil, todos os vassalos escolherão apoiar seu suserano, declarar neutralidade ou juntar-se à rebelião."
+setting_improved_civil_wars_disabled:0 "Desativado"
+setting_improved_civil_wars_disabled_desc:0 ""
 
-  rule_call_allied_vassals_game_rules:0 "#high Vassalos Mais Interativos: Alianças de Vassalos"
-  setting_call_allied_vassals_enabled:0 "Ativado"
-  setting_call_allied_vassals_enabled_desc:0 "Quando aliado com um vassalo, ele pode ser chamado para guerras externas e sempre ficará ao lado do suserano em guerras civis."
-  setting_call_allied_vassals_disabled:0 "Desativado"
-  setting_call_allied_vassals_disabled_desc:0 ""
+rule_call_allied_vassals_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Alianças de Vassalos"
+setting_call_allied_vassals_enabled:0 "Ativado"
+setting_call_allied_vassals_enabled_desc:0 "Quando um suserano é aliado de seu vassalo, ambos podem chamar um ao outro para suas próprias guerras internas e externas."
+setting_call_allied_vassals_disabled:0 "Desativado"
+setting_call_allied_vassals_disabled_desc:0 ""
 
-  rule_miv_loyalist_game_rules:0 "#high Vassalos Mais Interativos: Facção Lealista"
-  setting_miv_loyalist_enabled:0 "Ativado"
-  setting_miv_loyalist_enabled_desc:0 "Vassalos podem formar uma facção Lealista da Coroa para ajudar a estabilizar o reino e proteger seu suserano de ameaças internas."
-  setting_miv_loyalist_disabled:0 "Desativado"
-  setting_miv_loyalist_disabled_desc:0 ""
+rule_miv_loyalist_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Facção Lealista"
+setting_miv_loyalist_enabled:0 "Ativado"
+setting_miv_loyalist_enabled_desc:0 "Os vassalos podem formar uma facção Lealista da Coroa para ajudar a estabilizar o reino e proteger seu suserano de ameaças internas."
+setting_miv_loyalist_disabled:0 "Desativado"
+setting_miv_loyalist_disabled_desc:0 ""
 
-  rule_border_vassals_join_game_rules:0 "#high Vassalos Mais Interativos: Guerras Externas"
-  setting_border_vassals_join_enabled:0 "Ativado"
-  setting_border_vassals_join_enabled_desc:0 "Quando em guerra, vassalos que fazem fronteira com o reino oposto são chamados às armas tanto para atacantes quanto para defensores."
-  setting_border_vassals_join_disabled:0 "Desativado"
-  setting_border_vassals_join_disabled_desc:0 ""
+rule_border_vassals_join_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Vassalos Fronteiriços"
+setting_border_vassals_join_enabled:0 "Ativado"
+setting_border_vassals_join_enabled_desc:0 "No início de uma guerra, vassalos que fazem fronteira com o reino adversário são convocados às armas, tanto pelos atacantes quanto pelos defensores."
+setting_border_vassals_join_disabled:0 "Desativado"
+setting_border_vassals_join_disabled_desc:0 ""
 
-  rule_vassals_join_claims_game_rules:0 "#high Vassalos Mais Interativos: Reivindicações de Vassalos"
-  setting_vassals_join_claims_enabled:0 "Ativado"
-  setting_vassals_join_claims_enabled_desc:0 "Ao pressionar a reivindicação de um vassalo ou quando um vassalo perderia seu título para um reclamante, eles serão chamados às armas."
-  setting_vassals_join_claims_disabled:0 "Desativado"
-  setting_vassals_join_claims_disabled_desc:0 ""
+rule_vassals_join_claims_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Reivindicantes"
+setting_vassals_join_claims_enabled:0 "Ativado"
+setting_vassals_join_claims_enabled_desc:0 "Quando um suserano pressiona a reivindicação de um título para um de seus vassalos, o vassalo será convocado para lutar ao seu lado."
+setting_vassals_join_claims_disabled:0 "Desativado"
+setting_vassals_join_claims_disabled_desc:0 ""
 
-  rule_indirect_vassals_game_rules:0 "#high Vassalos Mais Interativos: Vassalos Indiretos"
-  setting_indirect_vassals_join:0 "Ativado"
-  setting_indirect_vassals_join_desc:0 "Vassalos podem chamar seus próprios vassalos para a guerra quando lutam contra governantes independentes ou contra outros vassalos no reino."
-  setting_indirect_vassals_dont_join:0 "Desativado"
-  setting_indirect_vassals_dont_join_desc:0 ""
+rule_traitor_vassals_miv_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Vassalos Traidores"
+setting_traitor_vassals_miv_enabled:0 "Ativado"
+setting_traitor_vassals_miv_enabled_desc:0 "Quando aliados ao lado oposto, vassalos podem ser chamados para a guerra contra seu próprio suserano e vice-versa."
+setting_traitor_vassals_miv_disabled:0 "Desativado"
+setting_traitor_vassals_miv_disabled_desc:0 ""
 
-  rule_opposition_faction_game_rules:0 "#high Vassalos Mais Interativos: Vassalos Traiçoeiros"
-  setting_opposition_faction_enabled:0 "Ativado"
-  setting_opposition_faction_enabled_desc:0 "Vassalos podem tentar trair seu suserano e ajudar inimigos externos quando aliados ao atacante ou defensor externo."
-  setting_opposition_faction_disabled:0 "Desativado"
-  setting_opposition_faction_disabled_desc:0 ""
+rule_challenging_ai_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: IA Desafiadora"
+setting_challenging_ai_enabled:0 "Ativado"
+setting_challenging_ai_enabled_desc:0 "Governantes da IA serão mais agressivos, receberão bônus razoáveis e estabelecerão reinos poderosos pelo mapa."
+setting_challenging_ai_disabled:0 "Desativado"
+setting_challenging_ai_disabled_desc:0 ""
 
-  rule_ai_improvements_game_rules:0 "#high Vassalos Mais Interativos: IA Agressiva"
-  setting_ai_improvements_enabled:0 "Ativado"
-  setting_ai_improvements_enabled_desc:0 "Governantes de IA serão mais agressivos, receberão buffs razoáveis e estabelecerão reinos poderosos pelo mapa."
-  setting_ai_improvements_disabled:0 "Desativado"
-  setting_ai_improvements_disabled_desc:0 ""
+rule_miv_starting_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Guerras Iniciais"
+setting_miv_starting_enabled:0 "Ativado"
+setting_miv_starting_enabled_desc:0 "Guerras pré-definidas por eventos que começam antes da data inicial de um novo jogo não serão afetadas pelos recursos do MIV."
+setting_miv_starting_disabled:0 "Desativado"
+setting_miv_starting_disabled_desc:0 ""
 
-  rule_miv_starting_game_rules:0 "#high Vassalos Mais Interativos: Guerras Iniciais"
-  setting_miv_starting_enabled:0 "Ativado"
-  setting_miv_starting_enabled_desc:0 "Os recursos deste mod não se aplicam às guerras de evento inicial na versão vanilla e outros mods para evitar problemas de balanceamento."
-  setting_miv_starting_disabled:0 "Desativado"
-  setting_miv_starting_disabled_desc:0 ""
+rule_war_exhaustion_miv_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Exaustão de Guerra"
+setting_war_exhaustion_miv_enabled:0 "Ativado"
+setting_war_exhaustion_miv_enabled_desc:0 "Vassalos ganham uma quantidade variável de exaustão de guerra dependendo das razões pelas quais aceitaram uma convocação às armas."
+setting_war_exhaustion_miv_disabled:0 "Desativado"
+setting_war_exhaustion_miv_disabled_desc:0 ""
 
-  rule_miv_modifiers_game_rules:0 "#high Vassalos Mais Interativos: Modificadores de Opinião"
-  setting_miv_modifiers_enabled:0 "Ativado"
-  setting_miv_modifiers_enabled_desc:0 "Vassalos recebem novos modificadores de opinião durante guerras civis e sempre que um suserano chama suas bandeiras para a guerra."
-  setting_miv_modifiers_disabled:0 "Desativado"
-  setting_miv_modifiers_disabled_desc:0 ""
+interactive.0001.title:0 "Um Chamado às Armas"
+interactive.0001.desc:0 "Após o início da [war.GetName], nosso suserano convocou seus estandartes, e agora devemos decidir como responder à convocação.\n\nQue seja conhecido que a Casa [ROOT.Char.GetHouse.GetName] irá..."
+interactive.0001.a:0 "Declarar apoio ao nosso suserano."
+interactive.0001.b:0 "Permanecer neutra."
+interactive.0001.c:0 "Lutar ao lado do inimigo."
 
-  rule_great_wars_kingdom_game_rules:0 "#high Vassalos Mais Interativos: Grandes Guerras"
-  setting_great_wars_kingdom_enabled:0 "Ativado"
-  setting_great_wars_kingdom_enabled_desc:0 "Guerras que visam títulos de nível de reino ou superior chamam todos os vassalos diretos às armas. Pode causar problemas de desempenho."
-  setting_great_wars_kingdom_disabled:0 "Desativado"
-  setting_great_wars_kingdom_disabled_desc:0 ""
+war_exhaustion_vassal_opinion:0 "Exaustão de Guerra"
+great_war_vassal_opinion:0 "Convocado para Grande Guerra"
+civil_wars_vassal_opinion:0 "Inimigo em Guerra Civil"
+ally_civil_wars_vassal_opinion:0 "Aliado em Guerra Civil"
+internal_turmoil_vassal_opinion:0 "Tumulto Interno"
+challenging_ai:0 "Dificuldade"
+player_improvements:0 "Dificuldade do Jogador"
 
-  rule_player_easy_mode_game_rules:0 "#high Vassalos Mais Interativos: Modo Sandbox"
-  setting_player_easy_mode_enabled:0 "Ativado"
-  setting_player_easy_mode_enabled_desc:0 "Habilita um CB de subjugação para todos, dá buffs de limite de suprimento e faz com que toda guerra seja considerada uma Grande Guerra."
-  setting_player_easy_mode_disabled:0 "Desativado"
-  setting_player_easy_mode_disabled_desc:0 ""
+crown_loyalist_faction:1 "Facção Lealista da Coroa"
+crown_loyalist_faction_desc:1 "Os membros da [faction|E] Lealista da Coroa buscam proteger o reino de seu [liege|E].\n\n#S Efeitos#!\nTodos os membros da facção levantam seus exércitos em defesa do [liege|e] no caso de uma [war|e] por uma [faction|e] hostil."
+crown_loyalist_faction_short_effect_desc:0 "Deseja proteger seu [liege|e] contra [factions|e] hostis"
 
-  interactive.0001.title:0 "Um Chamado às Armas"
-  interactive.0001.desc:0 "Após o início da [war.GetName], nosso suserano convocou suas bandeiras e devemos agora decidir como responder à convocação.\n\nQue seja conhecido que a Casa [ROOT.Char.GetHouse.GetName] irá..."
-  interactive.0001.a:0 "Declarar pelo nosso suserano"
-  interactive.0001.b:0 "Permanecer neutro"
-  interactive.0001.c:0 "Apoiar o inimigo"
+rule_directives_unlocked_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Diretivas para Vassalos"
+setting_directives_unlocked_enabled:0 "Ativado"
+setting_directives_unlocked_enabled_desc:0 "Diversas diretivas para vassalos são desbloqueadas para todos os tipos de governo se o anfitrião possuir o DLC Roads to Power."
+setting_directives_unlocked_disabled:0 "Desativado"
+setting_directives_unlocked_disabled_desc:0 ""
 
-  border_vassal_opinion:0 "Chamado para Guerra Externa"
-  great_war_vassal_opinion:0 "Chamado para Grande Guerra Ofensiva"
-  civil_wars_vassal_opinion:0 "Inimigo na Guerra Civil"
-  ally_civil_wars_vassal_opinion:0 "Aliado na Guerra Civil"
-  internal_turmoil_vassal_opinion:0 "Turmoil Interno (Guerra Civil Recente)"
-  ai_improvements:0 "Dificuldade"
-  player_improvements:0 "Dificuldade do Jogador"
+less_levies_10:0 "Dificuldade"
+less_levies_20:0 "Dificuldade"
+less_levies_30:0 "Dificuldade"
+less_levies_40:0 "Dificuldade"
+less_levies_50:0 "Dificuldade"
+less_levies_60:0 "Dificuldade"
+less_levies_70:0 "Dificuldade"
+less_levies_80:0 "Dificuldade"
+less_levies_90:0 "Dificuldade"
+less_levies_100:0 "Dificuldade"
 
-  great_war_tooltip:0 "#V Esta é uma Grande Guerra e todos os vassalos diretos de ambos os reinos serão chamados às armas pouco depois de seu início!#!"
-  bordering_subrealm_tooltip:0 "#X Vassalos Atacantes#!"
-  subrealm_vassal_tooltip:0 "#X Vassalos Defensores#!"
-  claims_vassal_tooltip:0 "#X Reclamantes#!"
+rule_less_levies_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Tamanho das Tropas"
+setting_less_levies_10:0 "Redução de 10%"
+setting_less_levies_10_desc:0 "As tropas de todas as fontes são reduzidas em 10%, tornando os exércitos menores e mais realistas."
 
-  crown_loyalist_faction:1 "Facção Lealista da Coroa"
-  crown_loyalist_faction_desc:1 "Membros da facção Lealista da Coroa procuram proteger o reino de seu [liege|E].\n\n#S Efeitos#!\nTodos os Membros da Facção levantam seus exércitos em defesa de seu [liege|e] no caso de uma [war|e] por uma facção hostil."
-  crown_loyalist_faction_short_effect_desc:0 "Quer proteger seu [liege|e] contra facções hostis"
+setting_less_levies_20:0 "Redução de 20%"
+setting_less_levies_20_desc:0 "As tropas de todas as fontes são reduzidas em 20%, tornando os exércitos menores e mais realistas."
+
+setting_less_levies_30:0 "Redução de 30%"
+setting_less_levies_30_desc:0 "As tropas de todas as fontes são reduzidas em 30%, tornando os exércitos menores e mais realistas."
+
+setting_less_levies_40:0 "Redução de 40%"
+setting_less_levies_40_desc:0 "As tropas de todas as fontes são reduzidas em 40%, tornando os exércitos menores e mais realistas."
+
+setting_less_levies_50:0 "Redução de 50%"
+setting_less_levies_50_desc:0 "As tropas de todas as fontes são reduzidas em 50%, tornando os exércitos menores e mais realistas."
+
+setting_less_levies_60:0 "Redução de 60%"
+setting_less_levies_60_desc:0 "As tropas de todas as fontes são reduzidas em 60%, tornando os exércitos menores e mais realistas."
+
+setting_less_levies_70:0 "Redução de 70%"
+setting_less_levies_70_desc:0 "As tropas de todas as fontes são reduzidas em 70%, tornando os exércitos menores e mais realistas."
+
+setting_less_levies_80:0 "Redução de 80%"
+setting_less_levies_80_desc:0 "As tropas de todas as fontes são reduzidas em 80%, tornando os exércitos menores e mais realistas."
+
+setting_less_levies_90:0 "Redução de 90%"
+setting_less_levies_90_desc:0 "As tropas de todas as fontes são reduzidas em 90%, tornando os exércitos menores e mais realistas."
+
+setting_less_levies_100:0 "Redução de 95%"
+setting_less_levies_100_desc:0 "As tropas de todas as fontes são reduzidas em 95%, tornando os exércitos menores e mais realistas."
+
+setting_less_levies_disabled:0 "Desativado (Padrão)"
+setting_less_levies_disabled_desc:0 ""
+
+rule_call_the_banners_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Porta-Estandartes"
+setting_call_the_banners_enabled:0 "Ativado"
+setting_call_the_banners_enabled_desc:0 "Em guerras externas, um suserano pode convocar todos os seus vassalos diretos às armas, mas a chance de recusarem também é muito maior."
+setting_call_the_banners_disabled:0 "Desativado (Padrão)"
+setting_call_the_banners_disabled_desc:0 ""
+
+game_rule_category_miv: "#P Vassalos Mais Interativos#!"
+
+INTERACTIVE_AI_HONOR:0 "Honra do Personagem: $VALUE|0+=$"
+
+rule_civil_war_indirect_vassals_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Vassalos Indiretos"
+setting_civil_war_indirect_vassals_enabled:0 "Ativado"
+setting_civil_war_indirect_vassals_enabled_desc:0 "Em uma guerra civil, um vassalo pode convocar seus próprios vassalos para apoiar seu compromisso com as facções lealista ou rebelde."
+setting_civil_war_indirect_vassals_disabled:0 "Desativado (Padrão)"
+setting_civil_war_indirect_vassals_disabled_desc:0 ""
+
+slower_levies_10:0 "Dificuldade"
+slower_levies_20:0 "Dificuldade"
+slower_levies_30:0 "Dificuldade"
+slower_levies_40:0 "Dificuldade"
+slower_levies_50:0 "Dificuldade"
+slower_levies_60:0 "Dificuldade"
+slower_levies_70:0 "Dificuldade"
+slower_levies_80:0 "Dificuldade"
+slower_levies_90:0 "Dificuldade"
+slower_levies_100:0 "Dificuldade"
+
+rule_slower_levies_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Reposição de Tropas"
+setting_slower_levies_10:0 "Redução de 10%"
+setting_slower_levies_10_desc:0 "A velocidade de reposição das tropas é reduzida em 10%, tornando as baixas em combate mais impactantes."
+
+setting_slower_levies_20:0 "Redução de 20%"
+setting_slower_levies_20_desc:0 "A velocidade de reposição das tropas é reduzida em 20%, tornando as baixas em combate mais impactantes."
+
+setting_slower_levies_30:0 "Redução de 30%"
+setting_slower_levies_30_desc:0 "A velocidade de reposição das tropas é reduzida em 30%, tornando as baixas em combate mais impactantes."
+
+setting_slower_levies_40:0 "Redução de 40%"
+setting_slower_levies_40_desc:0 "A velocidade de reposição das tropas é reduzida em 40%, tornando as baixas em combate mais impactantes."
+
+setting_slower_levies_50:0 "Redução de 50%"
+setting_slower_levies_50_desc:0 "A velocidade de reposição das tropas é reduzida em 50%, tornando as baixas em combate mais impactantes."
+
+setting_slower_levies_60:0 "Redução de 60%"
+setting_slower_levies_60_desc:0 "A velocidade de reposição das tropas é reduzida em 60%, tornando as baixas em combate mais impactantes."
+
+setting_slower_levies_70:0 "Redução de 70%"
+setting_slower_levies_70_desc:0 "A velocidade de reposição das tropas é reduzida em 70%, tornando as baixas em combate mais impactantes."
+
+setting_slower_levies_80:0 "Redução de 80%"
+setting_slower_levies_80_desc:0 "A velocidade de reposição das tropas é reduzida em 80%, tornando as baixas em combate mais impactantes."
+
+setting_slower_levies_90:0 "Redução de 90%"
+setting_slower_levies_90_desc:0 "A velocidade de reposição das tropas é reduzida em 90%, tornando as baixas em combate mais impactantes."
+
+setting_slower_levies_100:0 "Redução de 95%"
+setting_slower_levies_100_desc:0 "A velocidade de reposição das tropas é reduzida em 95%, tornando as baixas em combate mais impactantes."
+
+setting_slower_levies_disabled:0 "Desativado (Padrão)"
+setting_slower_levies_disabled_desc:0 ""
+
+start_war_date_tooltip:0 "#X #Bold O mod Vassalos Mais Interativos está quase pronto. Despause o jogo por alguns segundos para que o mod seja totalmente ativado!#!#!"
+
+FACTION_REASON_CAPITAL_COUNTY_INTERACTIVE:0 "Defenderemos a [realm_capital|E] do nosso [liege|E]: $VALUE|0+=$"
+
+rule_intervention_war_miv_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Intervenção do Suserano"
+setting_intervention_war_miv_enabled:0 "Ativado"
+setting_intervention_war_miv_enabled_desc:0 "Um suserano pode intervir em uma guerra envolvendo seus vassalos diretos, mas ao custo de ganhar tirania ou perder prestígio."
+setting_intervention_war_miv_disabled:0 "Desativado"
+setting_intervention_war_miv_disabled_desc:0 ""
+
+interactive_intervene_war_interaction:0 "Intervir na Guerra do Vassalo"
+interactive_intervene_war_interaction_desc:3 "Um [liege|e] pode intervir em uma [war|e] envolvendo seus [vassals|e] diretos.\n$BULLET_WITH_TAB$Ganha [tyranny|e] ao participar de uma Guerra Interna\n$BULLET_WITH_TAB$Custa [prestige|e] ao participar de uma Guerra Externa"
+
+interactive_war_ui_message:0 "@warning_icon! Alguns [vassals|e] de ambos os [realms|e] podem entrar na [war|e]!"
+
+interactive_attackers_ui_tooltip:0 "#X #Bold Vassalos Atacantes ($VALUE|0$)#!#!"
+
+interactive_defenders_ui_tooltip:0 "#P #Bold Vassalos Defensores ($VALUE|0$)#!#!"
+
+interactive_other_effects_tooltip:0 "#clickable #Bold Outros Efeitos#!#!"
+
+rule_vassals_defend_titles_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Detentores de Títulos" 
+setting_vassals_defend_titles_enabled:0 "Ativado"
+setting_vassals_defend_titles_enabled_desc:0 "Quando um vassalo corre o risco de perder qualquer um de seus títulos por uma guerra externa, ele será convocado às armas para defender seus títulos."
+setting_vassals_defend_titles_disabled:0 "Desativado"
+setting_vassals_defend_titles_disabled_desc:0 ""
+
+interactive_war_ui_second_message:0 "#Bold #High Vassalos Participantes#!#!"
+
+less_garrisons_10:0 "Dificuldade"
+less_garrisons_20:0 "Dificuldade"
+less_garrisons_30:0 "Dificuldade"
+less_garrisons_40:0 "Dificuldade"
+less_garrisons_50:0 "Dificuldade"
+less_garrisons_60:0 "Dificuldade"
+less_garrisons_70:0 "Dificuldade"
+less_garrisons_80:0 "Dificuldade"
+less_garrisons_90:0 "Dificuldade"
+less_garrisons_100:0 "Dificuldade"
+
+rule_less_garrisons_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Tamanho das Guarnições"
+setting_less_garrisons_10:0 "Redução de 10%"
+setting_less_garrisons_10_desc:0 "O tamanho das guarnições é reduzido em 10%, diminuindo o número de soldados necessários para sitiar um domínio."
+
+setting_less_garrisons_20:0 "Redução de 20%"
+setting_less_garrisons_20_desc:0 "O tamanho das guarnições é reduzido em 20%, diminuindo o número de soldados necessários para sitiar um domínio."
+
+setting_less_garrisons_30:0 "Redução de 30%"
+setting_less_garrisons_30_desc:0 "O tamanho das guarnições é reduzido em 30%, diminuindo o número de soldados necessários para sitiar um domínio."
+
+setting_less_garrisons_40:0 "Redução de 40%"
+setting_less_garrisons_40_desc:0 "O tamanho das guarnições é reduzido em 40%, diminuindo o número de soldados necessários para sitiar um domínio."
+
+setting_less_garrisons_50:0 "Redução de 50%"
+setting_less_garrisons_50_desc:0 "O tamanho das guarnições é reduzido em 50%, diminuindo o número de soldados necessários para sitiar um domínio."
+
+setting_less_garrisons_60:0 "Redução de 60%"
+setting_less_garrisons_60_desc:0 "O tamanho das guarnições é reduzido em 60%, diminuindo o número de soldados necessários para sitiar um domínio."
+
+setting_less_garrisons_70:0 "Redução de 70%"
+setting_less_garrisons_70_desc:0 "O tamanho das guarnições é reduzido em 70%, diminuindo o número de soldados necessários para sitiar um domínio."
+
+setting_less_garrisons_80:0 "Redução de 80%"
+setting_less_garrisons_80_desc:0 "O tamanho das guarnições é reduzido em 80%, diminuindo o número de soldados necessários para sitiar um domínio."
+
+setting_less_garrisons_90:0 "Redução de 90%"
+setting_less_garrisons_90_desc:0 "O tamanho das guarnições é reduzido em 90%, diminuindo o número de soldados necessários para sitiar um domínio."
+
+setting_less_garrisons_100:0 "Redução de 95%"
+setting_less_garrisons_100_desc:0 "O tamanho das guarnições é reduzido em 95%, diminuindo o número de soldados necessários para sitiar um domínio."
+
+setting_less_garrisons_disabled:0 "Desativado (Padrão)"
+setting_less_garrisons_disabled_desc:0 ""
+
+rule_war_participants_miv_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Autoridade da Coroa"
+setting_war_participants_miv_enabled:0 "Ativado"
+setting_war_participants_miv_enabled_desc:0 "Com autoridade absoluta da coroa, os vassalos que recusarem um chamado às armas serão considerados traidores, uma ofensa punível."
+setting_war_participants_miv_disabled:0 "Desativado (Padrão)"
+setting_war_participants_miv_disabled_desc:0 ""
+
+interactive_dont_call_vassals:0 "Desativar Convocação às Armas"
+interactive_dont_call_vassals_decision_desc:0 "Podemos lutar nossas próprias guerras por enquanto."
+interactive_dont_call_vassals_decision_tooltip:0 "Impede [vassals|e] de participar das suas [wars|e]."
+interactive_dont_call_vassals_confirm:0 "Enviar ordens"
+
+interactive_call_vassals:0 "Ativar Convocação às Armas"
+interactive_call_vassals_decision_desc:0 "Precisamos novamente do apoio dos nossos vassalos."
+interactive_call_vassals_decision_tooltip:0 "Permite que [vassals|e] participem das suas [wars|e]."
+interactive_call_vassals_confirm:0 "Enviar ordens"
+
+dont_call_vassals_tooltip:0 "#Bold Você escolheu não convocar seus vassalos à guerra!#!"
+they_dont_call_vassals_tooltip:0 "#Bold Eles escolheram não convocar seus vassalos à guerra!#!"
+
+interactive_dont_call_vassals_decision_effect:0 "[vassals|e] não serão mais convocados para suas [wars|e], e você não receberá penalidades adicionais de #X Exaustão de Guerra#! ao declarar guerra."
+interactive_call_vassals_decision_effect:0 "[vassals|e] poderão novamente participar das suas [wars|e]."
+
+rule_ally_exhaustion_miv_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Fadiga das Alianças"
+setting_ally_exhaustion_miv_enabled:0 "Ativado"
+setting_ally_exhaustion_miv_enabled_desc:0 "Aliados podem se tornar cada vez mais relutantes em oferecer ajuda se forem convocados para muitas guerras ao longo da vida."
+setting_ally_exhaustion_miv_disabled:0 "Desativado"
+setting_ally_exhaustion_miv_disabled_desc:0 ""
+
+ally_exhaustion_opinion:0 "Fadiga das Alianças"
+
+rule_politics_miv_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Política Interna"
+setting_politics_miv_enabled:0 "Ativado"
+setting_politics_miv_enabled_desc:0 "Durante uma guerra civil, vassalos podem ser persuadidos a escolher ou trocar de lado usando ouro, prestígio, favores, prisioneiros e alianças."
+setting_politics_miv_disabled:0 "Desativado"
+setting_politics_miv_disabled_desc:0 ""
+
+interactive_political_maneuver_interaction:0 "Mudar de lado na Guerra Civil"
+interactive_political_maneuver_interaction_desc:0 "Um [vassal|e] pode ser persuadido a escolher ou trocar de lado em uma [war|e] de [faction|e], usando [gold|e], [prestige|e], [hooks|e], [prisoners|e] e [alliances|e]."
+interactive_political_maneuver_gold_option:0 "@gold_icon! Oferecer Ouro"
+interactive_political_maneuver_prestige_option:0 "@prestige_icon! Gastar Prestígio"
+interactive_political_maneuver_hook_option:0 "@cs_weak_hook_icon! Usar Favor"
+interactive_political_maneuver_prisoner_option:0 "@prison_icon! Resgatar Prisioneiro"
+interactive_political_maneuver_alliance_option:0 "@alliance_icon! Usar Aliança"
+
+interactive_political_maneuver_at_war_tooltip:0 "Inimigo em Guerra Civil: $VALUE|+0=$"
+interactive_political_maneuver_gold_tooltip:0 "Ouro Oferecido: $VALUE|+0=$"
+interactive_political_maneuver_prestige_tooltip:0 "Prestígio Gasto: $VALUE|+0=$"
+interactive_political_maneuver_hook_tooltip:0 "Favor Usado: $VALUE|+0=$"
+interactive_political_maneuver_prisoner_tooltip:0 "Prisioneiro Resgatado: $VALUE|+0=$"
+interactive_political_maneuver_alliance_tooltip:0 "Aliança Utilizada: $VALUE|+0=$"
+
+ally_called_on_alliance_opinion:0 "Aliança Utilizada"
+NOT_DEBUG_I_HAVE_MORE_PRESTIGE_TRIGGER:0 "Você #Bold não#! tem [prestige|e] suficiente"
+DEBUG_I_HAVE_MORE_GOLD_TRIGGER:0 "Você #Bold não#! tem [gold|e] suficiente"
+
+less_mercs_10:0 "Dificuldade"
+less_mercs_20:0 "Dificuldade"
+less_mercs_30:0 "Dificuldade"
+less_mercs_40:0 "Dificuldade"
+less_mercs_50:0 "Dificuldade"
+less_mercs_60:0 "Dificuldade"
+less_mercs_70:0 "Dificuldade"
+less_mercs_80:0 "Dificuldade"
+less_mercs_90:0 "Dificuldade"
+less_mercs_100:0 "Dificuldade"
+
+rule_less_mercs_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Custo dos Mercenários"
+setting_less_mercs_10:0 "Aumento de 10%"
+setting_less_mercs_10_desc:0 "O custo para contratar mercenários e ordens religiosas é aumentado em 10%, encorajando o uso de exércitos pessoais."
+
+setting_less_mercs_20:0 "Aumento de 20%"
+setting_less_mercs_20_desc:0 "O custo para contratar mercenários e ordens religiosas é aumentado em 20%, encorajando o uso de exércitos pessoais."
+
+setting_less_mercs_30:0 "Aumento de 30%"
+setting_less_mercs_30_desc:0 "O custo para contratar mercenários e ordens religiosas é aumentado em 30%, encorajando o uso de exércitos pessoais."
+
+setting_less_mercs_40:0 "Aumento de 40%"
+setting_less_mercs_40_desc:0 "O custo para contratar mercenários e ordens religiosas é aumentado em 40%, encorajando o uso de exércitos pessoais."
+
+setting_less_mercs_50:0 "Aumento de 50%"
+setting_less_mercs_50_desc:0 "O custo para contratar mercenários e ordens religiosas é aumentado em 50%, encorajando o uso de exércitos pessoais."
+
+setting_less_mercs_60:0 "Aumento de 60%"
+setting_less_mercs_60_desc:0 "O custo para contratar mercenários e ordens religiosas é aumentado em 60%, encorajando o uso de exércitos pessoais."
+
+setting_less_mercs_70:0 "Aumento de 70%"
+setting_less_mercs_70_desc:0 "O custo para contratar mercenários e ordens religiosas é aumentado em 70%, encorajando o uso de exércitos pessoais."
+
+setting_less_mercs_80:0 "Aumento de 80%"
+setting_less_mercs_80_desc:0 "O custo para contratar mercenários e ordens religiosas é aumentado em 80%, encorajando o uso de exércitos pessoais."
+
+setting_less_mercs_90:0 "Aumento de 90%"
+setting_less_mercs_90_desc:0 "O custo para contratar mercenários e ordens religiosas é aumentado em 90%, encorajando o uso de exércitos pessoais."
+
+setting_less_mercs_100:0 "Aumento de 100%"
+setting_less_mercs_100_desc:0 "O custo para contratar mercenários e ordens religiosas é aumentado em 100%, encorajando o uso de exércitos pessoais."
+
+setting_less_mercs_disabled:0 "Desativado (Padrão)"
+setting_less_mercs_disabled_desc:0 ""
+
+rule_request_vassal_support_miv_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Apoio Militar"
+setting_request_vassal_support_miv_enabled:0 "Ativado"
+setting_request_vassal_support_miv_enabled_desc:0 "Um suserano pode solicitar que um vassalo direto participe de uma guerra externa em troca de conceder-lhe um favor."
+setting_request_vassal_support_miv_disabled:0 "Desativado"
+setting_request_vassal_support_miv_disabled_desc:0 ""
+
+request_vassal_support:0 "Solicitar Apoio Militar"
+request_vassal_support_desc:0 "Um [liege|e] pode solicitar que um de seus próprios [vassals|e] participe de uma [war|e] em troca de conceder-lhe um [hook|e]."
+ASK_VASSAL_MILITARY_SUPPORT_NOT_VALID:0 "[CHARACTER.GetShortUIName|U] já possui um favor seu."
+ASK_VASSAL_MILITARY_SUPPORT_IS_CIVIL_WAR:0 "#Bold Para pedir que entrem em uma Guerra Civil, você deve usar a interação Mudar de lado na Guerra Civil.#!\n"
+
+rule_miv_invite_faction_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Blocos de Poder"
+setting_miv_invite_faction_enabled:0 "Ativado"
+setting_miv_invite_faction_enabled_desc:0 "Vassalos podem aproveitar suas alianças existentes ao formar uma facção, prometendo ajuda mútua em caso de rebelião."
+setting_miv_invite_faction_disabled:0 "Desativado"
+setting_miv_invite_faction_disabled_desc:0 ""
+
+interactive_ask_ally_join_faction:0 "Convidar Aliado para Facção"
+interactive_ask_ally_join_faction_desc:0 "[vassals|e] que compartilham o mesmo [liege|e] podem usar suas [alliances|e] para convidarem-se mutuamente para uma mesma [faction|e]."
+
+levy_maintenance_10:0 "Dificuldade"
+levy_maintenance_20:0 "Dificuldade"
+levy_maintenance_30:0 "Dificuldade"
+levy_maintenance_40:0 "Dificuldade"
+levy_maintenance_50:0 "Dificuldade"
+levy_maintenance_60:0 "Dificuldade"
+levy_maintenance_70:0 "Dificuldade"
+levy_maintenance_80:0 "Dificuldade"
+levy_maintenance_90:0 "Dificuldade"
+levy_maintenance_100:0 "Dificuldade"
+
+rule_levy_maintenance_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Custo de Manutenção dos Recrutas"
+setting_levy_maintenance_10:0 "Redução de 10%"
+setting_levy_maintenance_10_desc:0 "O custo de manutenção dos recrutas é reduzido em 10%, diminuindo o custo dos recrutas mobilizados em guerra."
+
+setting_levy_maintenance_20:0 "Redução de 20%"
+setting_levy_maintenance_20_desc:0 "O custo de manutenção dos recrutas é reduzido em 20%, diminuindo o custo dos recrutas mobilizados em guerra."
+
+setting_levy_maintenance_30:0 "Redução de 30%"
+setting_levy_maintenance_30_desc:0 "O custo de manutenção dos recrutas é reduzido em 30%, diminuindo o custo dos recrutas mobilizados em guerra."
+
+setting_levy_maintenance_40:0 "Redução de 40%"
+setting_levy_maintenance_40_desc:0 "O custo de manutenção dos recrutas é reduzido em 40%, diminuindo o custo dos recrutas mobilizados em guerra."
+
+setting_levy_maintenance_50:0 "Redução de 50%"
+setting_levy_maintenance_50_desc:0 "O custo de manutenção dos recrutas é reduzido em 50%, diminuindo o custo dos recrutas mobilizados em guerra."
+
+setting_levy_maintenance_60:0 "Redução de 60%"
+setting_levy_maintenance_60_desc:0 "O custo de manutenção dos recrutas é reduzido em 60%, diminuindo o custo dos recrutas mobilizados em guerra."
+
+setting_levy_maintenance_70:0 "Redução de 70%"
+setting_levy_maintenance_70_desc:0 "O custo de manutenção dos recrutas é reduzido em 70%, diminuindo o custo dos recrutas mobilizados em guerra."
+
+setting_levy_maintenance_80:0 "Redução de 80%"
+setting_levy_maintenance_80_desc:0 "O custo de manutenção dos recrutas é reduzido em 80%, diminuindo o custo dos recrutas mobilizados em guerra."
+
+setting_levy_maintenance_90:0 "Redução de 90%"
+setting_levy_maintenance_90_desc:0 "O custo de manutenção dos recrutas é reduzido em 90%, diminuindo o custo dos recrutas mobilizados em guerra."
+
+setting_levy_maintenance_100:0 "Redução de 95%"
+setting_levy_maintenance_100_desc:0 "O custo de manutenção dos recrutas é reduzido em 95%, diminuindo o custo dos recrutas mobilizados em guerra."
+
+setting_levy_maintenance_disabled:0 "Desativado (Padrão)"
+setting_levy_maintenance_disabled_desc:0 ""
+
+maa_maintenance_10:0 "Dificuldade"
+maa_maintenance_20:0 "Dificuldade"
+maa_maintenance_30:0 "Dificuldade"
+maa_maintenance_40:0 "Dificuldade"
+maa_maintenance_50:0 "Dificuldade"
+maa_maintenance_60:0 "Dificuldade"
+maa_maintenance_70:0 "Dificuldade"
+maa_maintenance_80:0 "Dificuldade"
+maa_maintenance_90:0 "Dificuldade"
+maa_maintenance_100:0 "Dificuldade"
+
+rule_maa_maintenance_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Manutenção dos Homens de Armas"
+setting_maa_maintenance_10:0 "Aumento de 10%"
+setting_maa_maintenance_10_desc:0 "O custo de manutenção dos Homens de Armas é aumentado em 10%, dificultando a manutenção de um grande exército permanente."
+
+setting_maa_maintenance_20:0 "Aumento de 20%"
+setting_maa_maintenance_20_desc:0 "O custo de manutenção dos Homens de Armas é aumentado em 20%, dificultando a manutenção de um grande exército permanente."
+
+setting_maa_maintenance_30:0 "Aumento de 30%"
+setting_maa_maintenance_30_desc:0 "O custo de manutenção dos Homens de Armas é aumentado em 30%, dificultando a manutenção de um grande exército permanente."
+
+setting_maa_maintenance_40:0 "Aumento de 40%"
+setting_maa_maintenance_40_desc:0 "O custo de manutenção dos Homens de Armas é aumentado em 40%, dificultando a manutenção de um grande exército permanente."
+
+setting_maa_maintenance_50:0 "Aumento de 50%"
+setting_maa_maintenance_50_desc:0 "O custo de manutenção dos Homens de Armas é aumentado em 50%, dificultando a manutenção de um grande exército permanente."
+
+setting_maa_maintenance_60:0 "Aumento de 60%"
+setting_maa_maintenance_60_desc:0 "O custo de manutenção dos Homens de Armas é aumentado em 60%, dificultando a manutenção de um grande exército permanente."
+
+setting_maa_maintenance_70:0 "Aumento de 70%"
+setting_maa_maintenance_70_desc:0 "O custo de manutenção dos Homens de Armas é aumentado em 70%, dificultando a manutenção de um grande exército permanente."
+
+setting_maa_maintenance_80:0 "Aumento de 80%"
+setting_maa_maintenance_80_desc:0 "O custo de manutenção dos Homens de Armas é aumentado em 80%, dificultando a manutenção de um grande exército permanente."
+
+setting_maa_maintenance_90:0 "Aumento de 90%"
+setting_maa_maintenance_90_desc:0 "O custo de manutenção dos Homens de Armas é aumentado em 90%, dificultando a manutenção de um grande exército permanente."
+
+setting_maa_maintenance_100:0 "Aumento de 100%"
+setting_maa_maintenance_100_desc:0 "O custo de manutenção dos Homens de Armas é aumentado em 100%, dificultando a manutenção de um grande exército permanente."
+
+setting_maa_maintenance_disabled:0 "Desativado (Padrão)"
+setting_maa_maintenance_disabled_desc:0 ""
+
+maa_recruitment_cost_10:0 "Dificuldade"
+maa_recruitment_cost_20:0 "Dificuldade"
+maa_recruitment_cost_30:0 "Dificuldade"
+maa_recruitment_cost_40:0 "Dificuldade"
+maa_recruitment_cost_50:0 "Dificuldade"
+maa_recruitment_cost_60:0 "Dificuldade"
+maa_recruitment_cost_70:0 "Dificuldade"
+maa_recruitment_cost_80:0 "Dificuldade"
+maa_recruitment_cost_90:0 "Dificuldade"
+maa_recruitment_cost_100:0 "Dificuldade"
+
+rule_maa_recruitment_cost_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Custo de Recrutamento dos Homens de Armas"
+setting_maa_recruitment_cost_10:0 "Aumento de 10%"
+setting_maa_recruitment_cost_10_desc:0 "O custo de recrutamento dos Homens de Armas é aumentado em 10%, elevando o investimento inicial necessário para manter uma tropa fixa."
+
+setting_maa_recruitment_cost_20:0 "Aumento de 20%"
+setting_maa_recruitment_cost_20_desc:0 "O custo de recrutamento dos Homens de Armas é aumentado em 20%, elevando o investimento inicial necessário para manter uma tropa fixa."
+
+setting_maa_recruitment_cost_30:0 "Aumento de 30%"
+setting_maa_recruitment_cost_30_desc:0 "O custo de recrutamento dos Homens de Armas é aumentado em 30%, elevando o investimento inicial necessário para manter uma tropa fixa."
+
+setting_maa_recruitment_cost_40:0 "Aumento de 40%"
+setting_maa_recruitment_cost_40_desc:0 "O custo de recrutamento dos Homens de Armas é aumentado em 40%, elevando o investimento inicial necessário para manter uma tropa fixa."
+
+setting_maa_recruitment_cost_50:0 "Aumento de 50%"
+setting_maa_recruitment_cost_50_desc:0 "O custo de recrutamento dos Homens de Armas é aumentado em 50%, elevando o investimento inicial necessário para manter uma tropa fixa."
+
+setting_maa_recruitment_cost_60:0 "Aumento de 60%"
+setting_maa_recruitment_cost_60_desc:0 "O custo de recrutamento dos Homens de Armas é aumentado em 60%, elevando o investimento inicial necessário para manter uma tropa fixa."
+
+setting_maa_recruitment_cost_70:0 "Aumento de 70%"
+setting_maa_recruitment_cost_70_desc:0 "O custo de recrutamento dos Homens de Armas é aumentado em 70%, elevando o investimento inicial necessário para manter uma tropa fixa."
+
+setting_maa_recruitment_cost_80:0 "Aumento de 80%"
+setting_maa_recruitment_cost_80_desc:0 "O custo de recrutamento dos Homens de Armas é aumentado em 80%, elevando o investimento inicial necessário para manter uma tropa fixa."
+
+setting_maa_recruitment_cost_90:0 "Aumento de 90%"
+setting_maa_recruitment_cost_90_desc:0 "O custo de recrutamento dos Homens de Armas é aumentado em 90%, elevando o investimento inicial necessário para manter uma tropa fixa."
+
+setting_maa_recruitment_cost_100:0 "Aumento de 100%"
+setting_maa_recruitment_cost_100_desc:0 "O custo de recrutamento dos Homens de Armas é aumentado em 100%, elevando o investimento inicial necessário para manter uma tropa fixa."
+
+setting_maa_recruitment_cost_disabled:0 "Desativado (Padrão)"
+setting_maa_recruitment_cost_disabled_desc:0 ""
+
+levy_attack_25:0 "Dificuldade"
+levy_attack_50:0 "Dificuldade"
+levy_attack_75:0 "Dificuldade"
+levy_attack_100:0 "Dificuldade"
+levy_attack_125:0 "Dificuldade"
+levy_attack_150:0 "Dificuldade"
+levy_attack_175:0 "Dificuldade"
+levy_attack_200:0 "Dificuldade"
+levy_attack_225:0 "Dificuldade"
+levy_attack_250:0 "Dificuldade"
+levy_attack_275:0 "Dificuldade"
+levy_attack_300:0 "Dificuldade"
+levy_attack_325:0 "Dificuldade"
+levy_attack_350:0 "Dificuldade"
+levy_attack_375:0 "Dificuldade"
+
+rule_levy_attack_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Dano dos Soldados"
+setting_levy_attack_25:0 "Aumento de +1"
+setting_levy_attack_25_desc:0 "O atributo de dano dos soldados é aumentado em 1, melhorando sua capacidade ofensiva em combate."
+
+setting_levy_attack_50:0 "Aumento de +2"
+setting_levy_attack_50_desc:0 "O atributo de dano dos soldados é aumentado em 2, melhorando sua capacidade ofensiva em combate."
+
+setting_levy_attack_75:0 "Aumento de +3"
+setting_levy_attack_75_desc:0 "O atributo de dano dos soldados é aumentado em 3, melhorando sua capacidade ofensiva em combate."
+
+setting_levy_attack_100:0 "Aumento de +4"
+setting_levy_attack_100_desc:0 "O atributo de dano dos soldados é aumentado em 4, melhorando sua capacidade ofensiva em combate."
+
+setting_levy_attack_125:0 "Aumento de +5"
+setting_levy_attack_125_desc:0 "O atributo de dano dos soldados é aumentado em 5, melhorando sua capacidade ofensiva em combate."
+
+setting_levy_attack_150:0 "Aumento de +6"
+setting_levy_attack_150_desc:0 "O atributo de dano dos soldados é aumentado em 6, melhorando sua capacidade ofensiva em combate."
+
+setting_levy_attack_175:0 "Aumento de +7"
+setting_levy_attack_175_desc:0 "O atributo de dano dos soldados é aumentado em 7, melhorando sua capacidade ofensiva em combate."
+
+setting_levy_attack_200:0 "Aumento de +8"
+setting_levy_attack_200_desc:0 "O atributo de dano dos soldados é aumentado em 8, melhorando sua capacidade ofensiva em combate."
+
+setting_levy_attack_225:0 "Aumento de +9"
+setting_levy_attack_225_desc:0 "O atributo de dano dos soldados é aumentado em 9, melhorando sua capacidade ofensiva em combate."
+
+setting_levy_attack_250:0 "Aumento de +10"
+setting_levy_attack_250_desc:0 "O atributo de dano dos soldados é aumentado em 10, melhorando sua capacidade ofensiva em combate."
+
+setting_levy_attack_275:0 "Aumento de +11"
+setting_levy_attack_275_desc:0 "O atributo de dano dos soldados é aumentado em 11, melhorando sua capacidade ofensiva em combate."
+
+setting_levy_attack_300:0 "Aumento de +12"
+setting_levy_attack_300_desc:0 "O atributo de dano dos soldados é aumentado em 12, melhorando sua capacidade ofensiva em combate."
+
+setting_levy_attack_325:0 "Aumento de +13"
+setting_levy_attack_325_desc:0 "O atributo de dano dos soldados é aumentado em 13, melhorando sua capacidade ofensiva em combate."
+
+setting_levy_attack_350:0 "Aumento de +14"
+setting_levy_attack_350_desc:0 "O atributo de dano dos soldados é aumentado em 14, melhorando sua capacidade ofensiva em combate."
+
+setting_levy_attack_375:0 "Aumento de +15"
+setting_levy_attack_375_desc:0 "O atributo de dano dos soldados é aumentado em 15, melhorando sua capacidade ofensiva em combate."
+
+setting_levy_attack_disabled:0 "Desativado (Padrão)"
+setting_levy_attack_disabled_desc:0 ""
+
+levy_toughness_25:0 "Dificuldade"
+levy_toughness_50:0 "Dificuldade"
+levy_toughness_75:0 "Dificuldade"
+levy_toughness_100:0 "Dificuldade"
+levy_toughness_125:0 "Dificuldade"
+levy_toughness_150:0 "Dificuldade"
+levy_toughness_175:0 "Dificuldade"
+levy_toughness_200:0 "Dificuldade"
+levy_toughness_225:0 "Dificuldade"
+levy_toughness_250:0 "Dificuldade"
+levy_toughness_275:0 "Dificuldade"
+levy_toughness_300:0 "Dificuldade"
+levy_toughness_325:0 "Dificuldade"
+levy_toughness_350:0 "Dificuldade"
+levy_toughness_375:0 "Dificuldade"
+
+rule_levy_toughness_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Resistência dos Soldados"
+setting_levy_toughness_25:0 "Aumento de +1"
+setting_levy_toughness_25_desc:0 "O atributo de resistência dos soldados é aumentado em 1, melhorando sua capacidade de suportar dano em combate."
+
+setting_levy_toughness_50:0 "Aumento de +2"
+setting_levy_toughness_50_desc:0 "O atributo de resistência dos soldados é aumentado em 2, melhorando sua capacidade de suportar dano em combate."
+
+setting_levy_toughness_75:0 "Aumento de +3"
+setting_levy_toughness_75_desc:0 "O atributo de resistência dos soldados é aumentado em 3, melhorando sua capacidade de suportar dano em combate."
+
+setting_levy_toughness_100:0 "Aumento de +4"
+setting_levy_toughness_100_desc:0 "O atributo de resistência dos soldados é aumentado em 4, melhorando sua capacidade de suportar dano em combate."
+
+setting_levy_toughness_125:0 "Aumento de +5"
+setting_levy_toughness_125_desc:0 "O atributo de resistência dos soldados é aumentado em 5, melhorando sua capacidade de suportar dano em combate."
+
+setting_levy_toughness_150:0 "Aumento de +6"
+setting_levy_toughness_150_desc:0 "O atributo de resistência dos soldados é aumentado em 6, melhorando sua capacidade de suportar dano em combate."
+
+setting_levy_toughness_175:0 "Aumento de +7"
+setting_levy_toughness_175_desc:0 "O atributo de resistência dos soldados é aumentado em 7, melhorando sua capacidade de suportar dano em combate."
+
+setting_levy_toughness_200:0 "Aumento de +8"
+setting_levy_toughness_200_desc:0 "O atributo de resistência dos soldados é aumentado em 8, melhorando sua capacidade de suportar dano em combate."
+
+setting_levy_toughness_225:0 "Aumento de +9"
+setting_levy_toughness_225_desc:0 "O atributo de resistência dos soldados é aumentado em 9, melhorando sua capacidade de suportar dano em combate."
+
+setting_levy_toughness_250:0 "Aumento de +10"
+setting_levy_toughness_250_desc:0 "O atributo de resistência dos soldados é aumentado em 10, melhorando sua capacidade de suportar dano em combate."
+
+setting_levy_toughness_275:0 "Aumento de +11"
+setting_levy_toughness_275_desc:0 "O atributo de resistência dos soldados é aumentado em 11, melhorando sua capacidade de suportar dano em combate."
+
+setting_levy_toughness_300:0 "Aumento de +12"
+setting_levy_toughness_300_desc:0 "O atributo de resistência dos soldados é aumentado em 12, melhorando sua capacidade de suportar dano em combate."
+
+setting_levy_toughness_325:0 "Aumento de +13"
+setting_levy_toughness_325_desc:0 "O atributo de resistência dos soldados é aumentado em 13, melhorando sua capacidade de suportar dano em combate."
+
+setting_levy_toughness_350:0 "Aumento de +14"
+setting_levy_toughness_350_desc:0 "O atributo de resistência dos soldados é aumentado em 14, melhorando sua capacidade de suportar dano em combate."
+
+setting_levy_toughness_375:0 "Aumento de +15"
+setting_levy_toughness_375_desc:0 "O atributo de resistência dos soldados é aumentado em 15, melhorando sua capacidade de suportar dano em combate."
+
+setting_levy_toughness_disabled:0 "Desativado (Padrão)"
+setting_levy_toughness_disabled_desc:0 ""
+
+rule_levy_contribution_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Contribuição de Soldados"
+
+setting_levy_contribution_disabled:0 "Desativado (Padrão)"
+setting_levy_contribution_disabled_desc:0 ""
+
+setting_levy_contribution_10r:0 "Redução de 10%"
+setting_levy_contribution_10r_desc:0 "A porcentagem de soldados que os vassalos fornecem ao suserano é reduzida em 10%."
+
+setting_levy_contribution_20r:0 "Redução de 20%"
+setting_levy_contribution_20r_desc:0 "A porcentagem de soldados que os vassalos fornecem ao suserano é reduzida em 20%."
+
+setting_levy_contribution_30r:0 "Redução de 30%"
+setting_levy_contribution_30r_desc:0 "A porcentagem de soldados que os vassalos fornecem ao suserano é reduzida em 30%."
+
+setting_levy_contribution_40r:0 "Redução de 40%"
+setting_levy_contribution_40r_desc:0 "A porcentagem de soldados que os vassalos fornecem ao suserano é reduzida em 40%."
+
+setting_levy_contribution_50r:0 "Redução de 50%"
+setting_levy_contribution_50r_desc:0 "A porcentagem de soldados que os vassalos fornecem ao suserano é reduzida em 50%."
+
+setting_levy_contribution_60r:0 "Redução de 60%"
+setting_levy_contribution_60r_desc:0 "A porcentagem de soldados que os vassalos fornecem ao suserano é reduzida em 60%."
+
+setting_levy_contribution_70r:0 "Redução de 70%"
+setting_levy_contribution_70r_desc:0 "A porcentagem de soldados que os vassalos fornecem ao suserano é reduzida em 70%."
+
+setting_levy_contribution_80r:0 "Redução de 80%"
+setting_levy_contribution_80r_desc:0 "A porcentagem de soldados que os vassalos fornecem ao suserano é reduzida em 80%."
+
+setting_levy_contribution_90r:0 "Redução de 90%"
+setting_levy_contribution_90r_desc:0 "A porcentagem de soldados que os vassalos fornecem ao suserano é reduzida em 90%."
+
+setting_levy_contribution_100r:0 "Redução de 95%"
+setting_levy_contribution_100r_desc:0 "A porcentagem de soldados que os vassalos fornecem ao suserano é reduzida em 95%."
+
+levy_contribution_10r:0 "Dificuldade"
+levy_contribution_20r:0 "Dificuldade"
+levy_contribution_30r:0 "Dificuldade"
+levy_contribution_40r:0 "Dificuldade"
+levy_contribution_50r:0 "Dificuldade"
+levy_contribution_60r:0 "Dificuldade"
+levy_contribution_70r:0 "Dificuldade"
+levy_contribution_80r:0 "Dificuldade"
+levy_contribution_90r:0 "Dificuldade"
+levy_contribution_100r:0 "Dificuldade"
+
+rule_help_house_member_miv_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Assistência Familiar"
+setting_help_house_member_miv_enabled:0 "Ativado"
+setting_help_house_member_miv_enabled_desc:0 "Membros da mesma casa podem oferecer ajuda nas guerras de outros membros da casa, mesmo sem uma aliança formal."
+setting_help_house_member_miv_disabled:0 "Desativado"
+setting_help_house_member_miv_disabled_desc:0 ""
+
+interactive_help_house_member_interaction:0 "Ajudar Membro da Casa"
+interactive_help_house_member_interaction_desc:3 "Oferece ajuda na [guerra|e] de [recipient.GetShortUINameNoTooltip] como membro da mesma [casa|E]."
+
+rule_administrative_governors_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Exércitos Imperiais"
+setting_administrative_governors_enabled:0 "Ativado"
+setting_administrative_governors_enabled_desc:0 "Em um domínio administrativo, personagens podem requisitar os exércitos de outros governadores ao custo de influência."
+setting_administrative_governors_disabled:0 "Desativado"
+setting_administrative_governors_disabled_desc:0 ""
+
+interactive_administrative_governors:0 "Solicitar Apoio de Governador"
+interactive_administrative_governors_desc:0 "Em um [domínio|E] [administrativo|e], os [personagens|e] podem requisitar os [exércitos|e] de outros [governadores|e] ao custo de [influência|e]."
+
+miv_pursuit_of_power:0 "[vassalo_poderoso|E]"
+
+rule_miv_pursuit_of_power_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Busca por Poder"
+setting_miv_pursuit_of_power_enabled:0 "Ativado"
+setting_miv_pursuit_of_power_enabled_desc:0 "Vassalos poderosos são mais difíceis de satisfazer, exigindo gestão cuidadosa e alianças estratégicas para evitar guerras civis."
+setting_miv_pursuit_of_power_disabled:0 "Desativado"
+setting_miv_pursuit_of_power_disabled_desc:0 ""
+
+rule_internal_turmoil_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Turbulência Interna"
+setting_internal_turmoil_enabled:0 "Ativado"
+setting_internal_turmoil_enabled_desc:0 "Sempre que uma guerra civil ocorre, os vassalos perdem opinião do suserano e ficam menos propensos a apoiá-lo no futuro."
+setting_internal_turmoil_disabled:0 "Desativado (Padrão)"
+setting_internal_turmoil_disabled_desc:0 ""
+
+rule_additional_powerful_vassal_miv_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Sobrecarga de Poder"
+setting_additional_powerful_vassal_miv_enabled:0 "Ativado"
+setting_additional_powerful_vassal_miv_enabled_desc:0 "Domínios com nível imperial terão seis vassalos poderosos em vez de cinco, tornando grandes reinos mais difíceis de administrar."
+setting_additional_powerful_vassal_miv_disabled:0 "Desativado Manualmente"
+setting_additional_powerful_vassal_miv_disabled_desc:0 "Desativar este recurso exige modificar o arquivo:\ncommon/defines/interactive_main_defines.txt."
+
+rule_vassal_prisoner_warscore_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Prisioneiros de Guerra"
+setting_vassal_prisoner_warscore_enabled:0 "Ativado"
+setting_vassal_prisoner_warscore_enabled_desc:0 "Capturar um vassalo direto do líder de guerra adiciona 2% de pontuação de guerra por prisioneiro, aumentando significativamente seu valor estratégico."
+setting_vassal_prisoner_warscore_disabled:0 "Desativado Manualmente"
+setting_vassal_prisoner_warscore_disabled_desc:0 "Desativar este recurso exige modificar o arquivo:\ncommon/defines/interactive_main_defines.txt."
+
+interactive_bribe_to_leave_war_interaction:0 "Subornar para Abster-se"
+interactive_bribe_to_leave_war_desc:0 "[vassalos|e] que participam de uma [guerra|e] podem ser subornados para retirarem seus [exércitos|e] em troca de [ouro|e], [ganchos|e] ou [prisioneiros|e]."
+
+interactive_bribe_to_leave_war_tooltip:0 "[CHARACTER.GetShortUIName] deixa a [WAR.GetName|V]"
+
+rule_bribe_to_leave_war_miv_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Lealdades Instáveis"
+setting_bribe_to_leave_war_miv_enabled:0 "Ativado"
+setting_bribe_to_leave_war_miv_enabled_desc:0 "Vassalos que participam de guerras podem ser subornados para retirar seus exércitos em troca de ouro, ganchos ou prisioneiros."
+setting_bribe_to_leave_war_miv_disabled:0 "Desativado"
+setting_bribe_to_leave_war_miv_disabled_desc:0 ""
+
+rule_defiant_vassals_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Vassalos Desafiadores"
+setting_defiant_vassals_enabled:0 "Ativado"
+setting_defiant_vassals_enabled_desc:0 "Vassalos podem recusar entrar em guerras dependendo da opinião que têm de seu suserano e também podem impedir que seus próprios vassalos participem."
+setting_defiant_vassals_disabled:0 "Desativado"
+setting_defiant_vassals_disabled_desc:0 ""
+
+interactive_vassal_accepts_tooltip:0 "[CHARACTER.GetShortUIName] ([CHARACTER.GetPrimaryTitle.GetNameNoTier]) junta-se com #V $VALUE|0$#! [soldados|E]."
+
+interactive_vassal_accepts_claimant_tooltip:0 "[CHARACTER.GetShortUIName] ([CHARACTER.GetPrimaryTitle.GetNameNoTier]) apoia sua reivindicação com #V $VALUE|0$#! [soldados|E]."
+
+interactive_vassal_accepts_title_holder_tooltip:0 "[CHARACTER.GetShortUIName] ([CHARACTER.GetPrimaryTitle.GetNameNoTier]) defende seu título com #V $VALUE|0$#! [soldados|E]."
+
+interactive_vassal_refuses_tooltip:0 "[CHARACTER.GetShortUIName] ([CHARACTER.GetPrimaryTitle.GetNameNoTier]) recusou o chamado às armas."
+
+interactive_vassal_refuses_liege_tooltip:0 "[CHARACTER.GetShortUIName] ([CHARACTER.GetPrimaryTitle.GetNameNoTier]) se recusa a apoiar seu suserano."
+
+interactive_vassal_refuses_liege_blocked_tooltip:0 "[CHARACTER.GetShortUIName|V] ([CHARACTER.GetPrimaryTitle.GetNameNoTier]) foi impedido por seu suserano de participar."
+
+interactive_war_exhaustion_tooltip:0 "#Bold #V $VALUE|0$#!#! dos seus [vassalos|e] serão afetados por #Bold Cansaço de Guerra#!."
+
+interactive_bannermen_refuse_tooltip:0 "#Bold #V $VALUE|0$#!#! vassalos diretos se recusam a cumprir suas obrigações de vassalagem."
+
+civil_war_tooltip:0 "#X #Bold Esta é uma guerra civil, e todos os vassalos do reino terão que escolher um lado assim que ela começar!#!#!"
+
+miv_hard_difficulty_1:0 "Dificuldade"
+miv_hard_difficulty_2:0 "Dificuldade"
+miv_hard_difficulty_3:0 "Dificuldade"
+miv_hard_difficulty_4:0 "Dificuldade"
+miv_hard_difficulty_5:0 "Dificuldade"
+
+rule_miv_hard_difficulty_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Opinião dos Vassalos"
+setting_miv_hard_difficulty_enabled_1:0 "-10 de Opinião"
+setting_miv_hard_difficulty_enabled_1_desc:0 "Todos os personagens recebem um modificador de -10 na opinião dos vassalos, tornando seus reinos mais instáveis."
+setting_miv_hard_difficulty_enabled_1_player:0 "-10 de Opinião (Apenas Jogador)"
+setting_miv_hard_difficulty_enabled_1_player_desc:0 "Todos os jogadores recebem um modificador de -10 na opinião dos vassalos, tornando seus reinos mais instáveis."
+
+setting_miv_hard_difficulty_enabled_2:0 "-20 de Opinião"
+setting_miv_hard_difficulty_enabled_2_desc:0 "Todos os personagens recebem um modificador de -20 na opinião dos vassalos, tornando seus reinos mais instáveis."
+setting_miv_hard_difficulty_enabled_2_player:0 "-20 de Opinião (Apenas Jogador)"
+setting_miv_hard_difficulty_enabled_2_player_desc:0 "Todos os jogadores recebem um modificador de -20 na opinião dos vassalos, tornando seus reinos mais instáveis."
+
+setting_miv_hard_difficulty_enabled_3:0 "-30 de Opinião"
+setting_miv_hard_difficulty_enabled_3_desc:0 "Todos os personagens recebem um modificador de -30 na opinião dos vassalos, tornando seus reinos mais instáveis."
+setting_miv_hard_difficulty_enabled_3_player:0 "-30 de Opinião (Apenas Jogador)"
+setting_miv_hard_difficulty_enabled_3_player_desc:0 "Todos os jogadores recebem um modificador de -30 na opinião dos vassalos, tornando seus reinos mais instáveis."
+
+setting_miv_hard_difficulty_enabled_4:0 "-40 de Opinião"
+setting_miv_hard_difficulty_enabled_4_desc:0 "Todos os personagens recebem um modificador de -40 na opinião dos vassalos, tornando seus reinos mais instáveis."
+setting_miv_hard_difficulty_enabled_4_player:0 "-40 de Opinião (Apenas Jogador)"
+setting_miv_hard_difficulty_enabled_4_player_desc:0 "Todos os jogadores recebem um modificador de -40 na opinião dos vassalos, tornando seus reinos mais instáveis."
+
+setting_miv_hard_difficulty_enabled_5:0 "-50 de Opinião"
+setting_miv_hard_difficulty_enabled_5_desc:0 "Todos os personagens recebem um modificador de -50 na opinião dos vassalos, tornando seus reinos mais instáveis."
+setting_miv_hard_difficulty_enabled_5_player:0 "-50 de Opinião (Apenas Jogador)"
+setting_miv_hard_difficulty_enabled_5_player_desc:0 "Todos os jogadores recebem um modificador de -50 na opinião dos vassalos, tornando seus reinos mais instáveis."
+
+setting_miv_hard_difficulty_disabled:0 "Desativado (Padrão)"
+setting_miv_hard_difficulty_disabled_desc:0 ""
+
+knight_effectiveness_10:0 "Dificuldade"
+knight_effectiveness_20:0 "Dificuldade"
+knight_effectiveness_30:0 "Dificuldade"
+knight_effectiveness_40:0 "Dificuldade"
+knight_effectiveness_50:0 "Dificuldade"
+knight_effectiveness_60:0 "Dificuldade"
+knight_effectiveness_70:0 "Dificuldade"
+knight_effectiveness_80:0 "Dificuldade"
+knight_effectiveness_90:0 "Dificuldade"
+knight_effectiveness_100:0 "Dificuldade"
+
+rule_knight_effectiveness_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Efetividade dos Cavaleiros"
+setting_knight_effectiveness_10:0 "Redução de 10%"
+setting_knight_effectiveness_10_desc:0 "A efetividade dos cavaleiros é reduzida em 10%, diminuindo o dano causado a levies e Homens de Armas durante batalhas."
+
+setting_knight_effectiveness_20:0 "Redução de 20%"
+setting_knight_effectiveness_20_desc:0 "A efetividade dos cavaleiros é reduzida em 20%, diminuindo o dano causado a levies e Homens de Armas durante batalhas."
+
+setting_knight_effectiveness_30:0 "Redução de 30%"
+setting_knight_effectiveness_30_desc:0 "A efetividade dos cavaleiros é reduzida em 30%, diminuindo o dano causado a levies e Homens de Armas durante batalhas."
+
+setting_knight_effectiveness_40:0 "Redução de 40%"
+setting_knight_effectiveness_40_desc:0 "A efetividade dos cavaleiros é reduzida em 40%, diminuindo o dano causado a levies e Homens de Armas durante batalhas."
+
+setting_knight_effectiveness_50:0 "Redução de 50%"
+setting_knight_effectiveness_50_desc:0 "A efetividade dos cavaleiros é reduzida em 50%, diminuindo o dano causado a levies e Homens de Armas durante batalhas."
+
+setting_knight_effectiveness_60:0 "Redução de 60%"
+setting_knight_effectiveness_60_desc:0 "A efetividade dos cavaleiros é reduzida em 60%, diminuindo o dano causado a levies e Homens de Armas durante batalhas."
+
+setting_knight_effectiveness_70:0 "Redução de 70%"
+setting_knight_effectiveness_70_desc:0 "A efetividade dos cavaleiros é reduzida em 70%, diminuindo o dano causado a levies e Homens de Armas durante batalhas."
+
+setting_knight_effectiveness_80:0 "Redução de 80%"
+setting_knight_effectiveness_80_desc:0 "A efetividade dos cavaleiros é reduzida em 80%, diminuindo o dano causado a levies e Homens de Armas durante batalhas."
+
+setting_knight_effectiveness_90:0 "Redução de 90%"
+setting_knight_effectiveness_90_desc:0 "A efetividade dos cavaleiros é reduzida em 90%, diminuindo o dano causado a levies e Homens de Armas durante batalhas."
+
+setting_knight_effectiveness_100:0 "Redução de 95%"
+setting_knight_effectiveness_100_desc:0 "A efetividade dos cavaleiros é reduzida em 95%, diminuindo o dano causado a levies e Homens de Armas durante batalhas."
+
+setting_knight_effectiveness_disabled:0 "Desativado (Padrão)"
+setting_knight_effectiveness_disabled_desc:0 ""
+
+domain_tax_10:0 "Dificuldade"
+domain_tax_20:0 "Dificuldade"
+domain_tax_30:0 "Dificuldade"
+domain_tax_40:0 "Dificuldade"
+domain_tax_50:0 "Dificuldade"
+domain_tax_60:0 "Dificuldade"
+domain_tax_70:0 "Dificuldade"
+domain_tax_80:0 "Dificuldade"
+domain_tax_90:0 "Dificuldade"
+domain_tax_100:0 "Dificuldade"
+
+rule_domain_tax_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Imposto do Domínio"
+setting_domain_tax_10:0 "Redução de 10%"
+setting_domain_tax_10_desc:0 "A renda proveniente das posses é reduzida em 10%, o que desacelera o ritmo de crescimento econômico."
+
+setting_domain_tax_20:0 "Redução de 20%"
+setting_domain_tax_20_desc:0 "A renda proveniente das posses é reduzida em 20%, o que desacelera o ritmo de crescimento econômico."
+
+setting_domain_tax_30:0 "Redução de 30%"
+setting_domain_tax_30_desc:0 "A renda proveniente das posses é reduzida em 30%, o que desacelera o ritmo de crescimento econômico."
+
+setting_domain_tax_40:0 "Redução de 40%"
+setting_domain_tax_40_desc:0 "A renda proveniente das posses é reduzida em 40%, o que desacelera o ritmo de crescimento econômico."
+
+setting_domain_tax_50:0 "Redução de 50%"
+setting_domain_tax_50_desc:0 "A renda proveniente das posses é reduzida em 50%, o que desacelera o ritmo de crescimento econômico."
+
+setting_domain_tax_60:0 "Redução de 60%"
+setting_domain_tax_60_desc:0 "A renda proveniente das posses é reduzida em 60%, o que desacelera o ritmo de crescimento econômico."
+
+setting_domain_tax_70:0 "Redução de 70%"
+setting_domain_tax_70_desc:0 "A renda proveniente das posses é reduzida em 70%, o que desacelera o ritmo de crescimento econômico."
+
+setting_domain_tax_80:0 "Redução de 80%"
+setting_domain_tax_80_desc:0 "A renda proveniente das posses é reduzida em 80%, o que desacelera o ritmo de crescimento econômico."
+
+setting_domain_tax_90:0 "Redução de 90%"
+setting_domain_tax_90_desc:0 "A renda proveniente das posses é reduzida em 90%, o que desacelera o ritmo de crescimento econômico."
+
+setting_domain_tax_100:0 "Redução de 95%"
+setting_domain_tax_100_desc:0 "A renda proveniente das posses é reduzida em 95%, o que desacelera o ritmo de crescimento econômico."
+
+setting_domain_tax_disabled:0 "Desativado (Padrão)"
+setting_domain_tax_disabled_desc:0 ""
+
+maa_size_10:0 "Dificuldade"
+maa_size_20:0 "Dificuldade"
+maa_size_30:0 "Dificuldade"
+maa_size_40:0 "Dificuldade"
+maa_size_50:0 "Dificuldade"
+maa_size_60:0 "Dificuldade"
+maa_size_70:0 "Dificuldade"
+maa_size_80:0 "Dificuldade"
+maa_size_90:0 "Dificuldade"
+maa_size_100:0 "Dificuldade"
+
+rule_maa_size_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Tamanho dos Homens de Armas"
+setting_maa_size_10:0 "Aumento de +1"
+setting_maa_size_10_desc:0 "O tamanho máximo dos regimentos de Homens de Armas é aumentado em 1, permitindo mais soldados no domínio."
+
+setting_maa_size_20:0 "Aumento de +2"
+setting_maa_size_20_desc:0 "O tamanho máximo dos regimentos de Homens de Armas é aumentado em 2, permitindo mais soldados no domínio."
+
+setting_maa_size_30:0 "Aumento de +3"
+setting_maa_size_30_desc:0 "O tamanho máximo dos regimentos de Homens de Armas é aumentado em 3, permitindo mais soldados no domínio."
+
+setting_maa_size_40:0 "Aumento de +4"
+setting_maa_size_40_desc:0 "O tamanho máximo dos regimentos de Homens de Armas é aumentado em 4, permitindo mais soldados no domínio."
+
+setting_maa_size_50:0 "Aumento de +5"
+setting_maa_size_50_desc:0 "O tamanho máximo dos regimentos de Homens de Armas é aumentado em 5, permitindo mais soldados no domínio."
+
+setting_maa_size_60:0 "Aumento de +6"
+setting_maa_size_60_desc:0 "O tamanho máximo dos regimentos de Homens de Armas é aumentado em 6, permitindo mais soldados no domínio."
+
+setting_maa_size_70:0 "Aumento de +7"
+setting_maa_size_70_desc:0 "O tamanho máximo dos regimentos de Homens de Armas é aumentado em 7, permitindo mais soldados no domínio."
+
+setting_maa_size_80:0 "Aumento de +8"
+setting_maa_size_80_desc:0 "O tamanho máximo dos regimentos de Homens de Armas é aumentado em 8, permitindo mais soldados no domínio."
+
+setting_maa_size_90:0 "Aumento de +9"
+setting_maa_size_90_desc:0 "O tamanho máximo dos regimentos de Homens de Armas é aumentado em 9, permitindo mais soldados no domínio."
+
+setting_maa_size_100:0 "Aumento de +10"
+setting_maa_size_100_desc:0 "O tamanho máximo dos regimentos de Homens de Armas é aumentado em 10, permitindo mais soldados no domínio."
+
+setting_maa_size_disabled:0 "Desativado (Padrão)"
+setting_maa_size_disabled_desc:0 ""
+
+maa_limit_10:0 "Dificuldade"
+maa_limit_20:0 "Dificuldade"
+maa_limit_25:0 "Dificuldade"
+maa_limit_30:0 "Dificuldade"
+maa_limit_40:0 "Dificuldade"
+maa_limit_50:0 "Dificuldade"
+maa_limit_60:0 "Dificuldade"
+maa_limit_70:0 "Dificuldade"
+maa_limit_80:0 "Dificuldade"
+maa_limit_90:0 "Dificuldade"
+maa_limit_100:0 "Dificuldade"
+
+rule_maa_limit_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Limite de Soldados Profissionais"
+setting_maa_limit_10:0 "+1 Aumento"
+setting_maa_limit_10_desc:0 "O número de vagas para recrutar Soldados Profissionais é aumentado em 1, criando exércitos profissionais maiores no reino."
+
+setting_maa_limit_20:0 "+2 Aumento"
+setting_maa_limit_20_desc:0 "O número de vagas para recrutar Soldados Profissionais é aumentado em 2, criando exércitos profissionais maiores no reino."
+
+setting_maa_limit_30:0 "+3 Aumento"
+setting_maa_limit_30_desc:0 "O número de vagas para recrutar Soldados Profissionais é aumentado em 3, criando exércitos profissionais maiores no reino."
+
+setting_maa_limit_40:0 "+4 Aumento"
+setting_maa_limit_40_desc:0 "O número de vagas para recrutar Soldados Profissionais é aumentado em 4, criando exércitos profissionais maiores no reino."
+
+setting_maa_limit_50:0 "+5 Aumento"
+setting_maa_limit_50_desc:0 "O número de vagas para recrutar Soldados Profissionais é aumentado em 5, criando exércitos profissionais maiores no reino."
+
+setting_maa_limit_60:0 "+6 Aumento"
+setting_maa_limit_60_desc:0 "O número de vagas para recrutar Soldados Profissionais é aumentado em 6, criando exércitos profissionais maiores no reino."
+
+setting_maa_limit_70:0 "+7 Aumento"
+setting_maa_limit_70_desc:0 "O número de vagas para recrutar Soldados Profissionais é aumentado em 7, criando exércitos profissionais maiores no reino."
+
+setting_maa_limit_80:0 "+8 Aumento"
+setting_maa_limit_80_desc:0 "O número de vagas para recrutar Soldados Profissionais é aumentado em 8, criando exércitos profissionais maiores no reino."
+
+setting_maa_limit_90:0 "+9 Aumento"
+setting_maa_limit_90_desc:0 "O número de vagas para recrutar Soldados Profissionais é aumentado em 9, criando exércitos profissionais maiores no reino."
+
+setting_maa_limit_100:0 "+10 Aumento"
+setting_maa_limit_100_desc:0 "O número de vagas para recrutar Soldados Profissionais é aumentado em 10, criando exércitos profissionais maiores no reino."
+
+setting_maa_limit_disabled:0 "Desativado (Padrão)"
+setting_maa_limit_disabled_desc:0 ""
+
+ASK_SUPPORT_CANNOT_AFFORD_PRESTIGE:0 "Você não tem Prestígio suficiente."
+
+ASK_SUPPORT_CANNOT_AFFORD_INFLUENCE:0 "Você não tem Influência suficiente."
+
+supply_limit_10:0 "Dificuldade"
+supply_limit_20:0 "Dificuldade"
+supply_limit_30:0 "Dificuldade"
+supply_limit_40:0 "Dificuldade"
+supply_limit_50:0 "Dificuldade"
+supply_limit_60:0 "Dificuldade"
+supply_limit_70:0 "Dificuldade"
+supply_limit_80:0 "Dificuldade"
+supply_limit_90:0 "Dificuldade"
+supply_limit_100:0 "Dificuldade"
+
+rule_supply_limit_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Limite de Suprimento"
+setting_supply_limit_10:0 "+1000 de Aumento"
+setting_supply_limit_10_desc:0 "O limite base de suprimento nas províncias é aumentado em 1000, permitindo maiores pilhas de exército em cada província."
+
+setting_supply_limit_20:0 "+2000 de Aumento"
+setting_supply_limit_20_desc:0 "O limite base de suprimento nas províncias é aumentado em 2000, permitindo maiores pilhas de exército em cada província."
+
+setting_supply_limit_30:0 "+3000 de Aumento"
+setting_supply_limit_30_desc:0 "O limite base de suprimento nas províncias é aumentado em 3000, permitindo maiores pilhas de exército em cada província."
+
+setting_supply_limit_40:0 "+4000 de Aumento"
+setting_supply_limit_40_desc:0 "O limite base de suprimento nas províncias é aumentado em 4000, permitindo maiores pilhas de exército em cada província."
+
+setting_supply_limit_50:0 "+5000 de Aumento"
+setting_supply_limit_50_desc:0 "O limite base de suprimento nas províncias é aumentado em 5000, permitindo maiores pilhas de exército em cada província."
+
+setting_supply_limit_60:0 "+6000 de Aumento"
+setting_supply_limit_60_desc:0 "O limite base de suprimento nas províncias é aumentado em 6000, permitindo maiores pilhas de exército em cada província."
+
+setting_supply_limit_70:0 "+7000 de Aumento"
+setting_supply_limit_70_desc:0 "O limite base de suprimento nas províncias é aumentado em 7000, permitindo maiores pilhas de exército em cada província."
+
+setting_supply_limit_80:0 "+8000 de Aumento"
+setting_supply_limit_80_desc:0 "O limite base de suprimento nas províncias é aumentado em 8000, permitindo maiores pilhas de exército em cada província."
+
+setting_supply_limit_90:0 "+9000 de Aumento"
+setting_supply_limit_90_desc:0 "O limite base de suprimento nas províncias é aumentado em 9000, permitindo maiores pilhas de exército em cada província."
+
+setting_supply_limit_100:0 "+10000 de Aumento"
+setting_supply_limit_100_desc:0 "O limite base de suprimento nas províncias é aumentado em 10000, permitindo maiores pilhas de exército em cada província."
+
+setting_supply_limit_disabled:0 "Desativado"
+setting_supply_limit_disabled_desc:0 ""
+
+supply_duration_10:0 "Dificuldade"
+supply_duration_20:0 "Dificuldade"
+supply_duration_30:0 "Dificuldade"
+supply_duration_40:0 "Dificuldade"
+supply_duration_50:0 "Dificuldade"
+supply_duration_60:0 "Dificuldade"
+supply_duration_70:0 "Dificuldade"
+supply_duration_80:0 "Dificuldade"
+supply_duration_90:0 "Dificuldade"
+supply_duration_100:0 "Dificuldade"
+
+rule_supply_duration_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Capacidade de Suprimento"
+setting_supply_duration_10:0 "+100 de Aumento"
+setting_supply_duration_10_desc:0 "O máximo de suprimentos que um exército pode carregar é aumentado em 100, permitindo que durem mais tempo antes de precisarem se reabastecer."
+
+setting_supply_duration_20:0 "+200 de Aumento"
+setting_supply_duration_20_desc:0 "O máximo de suprimentos que um exército pode carregar é aumentado em 200, permitindo que durem mais tempo antes de precisarem se reabastecer."
+
+setting_supply_duration_30:0 "+300 de Aumento"
+setting_supply_duration_30_desc:0 "O máximo de suprimentos que um exército pode carregar é aumentado em 300, permitindo que durem mais tempo antes de precisarem se reabastecer."
+
+setting_supply_duration_40:0 "+400 de Aumento"
+setting_supply_duration_40_desc:0 "O máximo de suprimentos que um exército pode carregar é aumentado em 400, permitindo que durem mais tempo antes de precisarem se reabastecer."
+
+setting_supply_duration_50:0 "+500 de Aumento"
+setting_supply_duration_50_desc:0 "O máximo de suprimentos que um exército pode carregar é aumentado em 500, permitindo que durem mais tempo antes de precisarem se reabastecer."
+
+setting_supply_duration_60:0 "+600 de Aumento"
+setting_supply_duration_60_desc:0 "O máximo de suprimentos que um exército pode carregar é aumentado em 600, permitindo que durem mais tempo antes de precisarem se reabastecer."
+
+setting_supply_duration_70:0 "+700 de Aumento"
+setting_supply_duration_70_desc:0 "O máximo de suprimentos que um exército pode carregar é aumentado em 700, permitindo que durem mais tempo antes de precisarem se reabastecer."
+
+setting_supply_duration_80:0 "+800 de Aumento"
+setting_supply_duration_80_desc:0 "O máximo de suprimentos que um exército pode carregar é aumentado em 800, permitindo que durem mais tempo antes de precisarem se reabastecer."
+
+setting_supply_duration_90:0 "+900 de Aumento"
+setting_supply_duration_90_desc:0 "O máximo de suprimentos que um exército pode carregar é aumentado em 900, permitindo que durem mais tempo antes de precisarem se reabastecer."
+
+setting_supply_duration_100:0 "+1000 de Aumento"
+setting_supply_duration_100_desc:0 "O máximo de suprimentos que um exército pode carregar é aumentado em 1000, permitindo que durem mais tempo antes de precisarem se reabastecer."
+
+setting_supply_duration_disabled:0 "Desativado (Padrão)"
+setting_supply_duration_disabled_desc:0 ""
+
+army_speed_10:0 "Dificuldade"
+army_speed_20:0 "Dificuldade"
+army_speed_30:0 "Dificuldade"
+army_speed_40:0 "Dificuldade"
+army_speed_50:0 "Dificuldade"
+army_speed_60:0 "Dificuldade"
+army_speed_70:0 "Dificuldade"
+army_speed_80:0 "Dificuldade"
+army_speed_90:0 "Dificuldade"
+army_speed_100:0 "Dificuldade"
+
+rule_army_speed_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Velocidade do Exército"
+setting_army_speed_10:0 "Redução de 10%"
+setting_army_speed_10_desc:0 "A velocidade de movimentação dos exércitos por terra é reduzida em 10%, tornando as campanhas militares mais estratégicas."
+
+setting_army_speed_20:0 "Redução de 20%"
+setting_army_speed_20_desc:0 "A velocidade de movimentação dos exércitos por terra é reduzida em 20%, tornando as campanhas militares mais estratégicas."
+
+setting_army_speed_30:0 "Redução de 30%"
+setting_army_speed_30_desc:0 "A velocidade de movimentação dos exércitos por terra é reduzida em 30%, tornando as campanhas militares mais estratégicas."
+
+setting_army_speed_40:0 "Redução de 40%"
+setting_army_speed_40_desc:0 "A velocidade de movimentação dos exércitos por terra é reduzida em 40%, tornando as campanhas militares mais estratégicas."
+
+setting_army_speed_50:0 "Redução de 50%"
+setting_army_speed_50_desc:0 "A velocidade de movimentação dos exércitos por terra é reduzida em 50%, tornando as campanhas militares mais estratégicas."
+
+setting_army_speed_60:0 "Redução de 60%"
+setting_army_speed_60_desc:0 "A velocidade de movimentação dos exércitos por terra é reduzida em 60%, tornando as campanhas militares mais estratégicas."
+
+setting_army_speed_70:0 "Redução de 70%"
+setting_army_speed_70_desc:0 "A velocidade de movimentação dos exércitos por terra é reduzida em 70%, tornando as campanhas militares mais estratégicas."
+
+setting_army_speed_80:0 "Redução de 80%"
+setting_army_speed_80_desc:0 "A velocidade de movimentação dos exércitos por terra é reduzida em 80%, tornando as campanhas militares mais estratégicas."
+
+setting_army_speed_90:0 "Redução de 90%"
+setting_army_speed_90_desc:0 "A velocidade de movimentação dos exércitos por terra é reduzida em 90%, tornando as campanhas militares mais estratégicas."
+
+setting_army_speed_100:0 "Redução de 95%"
+setting_army_speed_100_desc:0 "A velocidade de movimentação dos exércitos por terra é reduzida em 95%, tornando as campanhas militares mais estratégicas."
+
+setting_army_speed_disabled:0 "Desativado (Padrão)"
+setting_army_speed_disabled_desc:0 ""
+
+naval_speed_10:0 "Dificuldade"
+naval_speed_20:0 "Dificuldade"
+naval_speed_30:0 "Dificuldade"
+naval_speed_40:0 "Dificuldade"
+naval_speed_50:0 "Dificuldade"
+naval_speed_60:0 "Dificuldade"
+naval_speed_70:0 "Dificuldade"
+naval_speed_80:0 "Dificuldade"
+naval_speed_90:0 "Dificuldade"
+naval_speed_100:0 "Dificuldade"
+
+rule_naval_speed_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Velocidade Naval"
+setting_naval_speed_10:0 "Redução de 10%"
+setting_naval_speed_10_desc:0 "A velocidade de movimentação naval é reduzida em 10%, adicionando mais dificuldade nas viagens marítimas."
+
+setting_naval_speed_20:0 "Redução de 20%"
+setting_naval_speed_20_desc:0 "A velocidade de movimentação naval é reduzida em 20%, adicionando mais dificuldade nas viagens marítimas."
+
+setting_naval_speed_30:0 "Redução de 30%"
+setting_naval_speed_30_desc:0 "A velocidade de movimentação naval é reduzida em 30%, adicionando mais dificuldade nas viagens marítimas."
+
+setting_naval_speed_40:0 "Redução de 40%"
+setting_naval_speed_40_desc:0 "A velocidade de movimentação naval é reduzida em 40%, adicionando mais dificuldade nas viagens marítimas."
+
+setting_naval_speed_50:0 "Redução de 50%"
+setting_naval_speed_50_desc:0 "A velocidade de movimentação naval é reduzida em 50%, adicionando mais dificuldade nas viagens marítimas."
+
+setting_naval_speed_60:0 "Redução de 60%"
+setting_naval_speed_60_desc:0 "A velocidade de movimentação naval é reduzida em 60%, adicionando mais dificuldade nas viagens marítimas."
+
+setting_naval_speed_70:0 "Redução de 70%"
+setting_naval_speed_70_desc:0 "A velocidade de movimentação naval é reduzida em 70%, adicionando mais dificuldade nas viagens marítimas."
+
+setting_naval_speed_80:0 "Redução de 80%"
+setting_naval_speed_80_desc:0 "A velocidade de movimentação naval é reduzida em 80%, adicionando mais dificuldade nas viagens marítimas."
+
+setting_naval_speed_90:0 "Redução de 90%"
+setting_naval_speed_90_desc:0 "A velocidade de movimentação naval é reduzida em 90%, adicionando mais dificuldade nas viagens marítimas."
+
+setting_naval_speed_100:0 "Redução de 95%"
+setting_naval_speed_100_desc:0 "A velocidade de movimentação naval é reduzida em 95%, adicionando mais dificuldade nas viagens marítimas."
+
+setting_naval_speed_disabled:0 "Desativado (Padrão)"
+setting_naval_speed_disabled_desc:0 ""
+
+fatal_casualties_10:0 "Dificuldade"
+fatal_casualties_20:0 "Dificuldade"
+fatal_casualties_30:0 "Dificuldade"
+fatal_casualties_40:0 "Dificuldade"
+fatal_casualties_50:0 "Dificuldade"
+fatal_casualties_60:0 "Dificuldade"
+fatal_casualties_70:0 "Dificuldade"
+fatal_casualties_80:0 "Dificuldade"
+fatal_casualties_90:0 "Dificuldade"
+fatal_casualties_100:0 "Dificuldade"
+
+rule_fatal_casualties_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Baixas Fatais"
+setting_fatal_casualties_10:0 "Aumento de 10%"
+setting_fatal_casualties_10_desc:0 "O número de baixas fatais em combate é aumentado em 10%, tornando as batalhas mais mortais."
+
+setting_fatal_casualties_20:0 "Aumento de 20%"
+setting_fatal_casualties_20_desc:0 "O número de baixas fatais em combate é aumentado em 20%, tornando as batalhas mais mortais."
+
+setting_fatal_casualties_30:0 "Aumento de 30%"
+setting_fatal_casualties_30_desc:0 "O número de baixas fatais em combate é aumentado em 30%, tornando as batalhas mais mortais."
+
+setting_fatal_casualties_40:0 "Aumento de 40%"
+setting_fatal_casualties_40_desc:0 "O número de baixas fatais em combate é aumentado em 40%, tornando as batalhas mais mortais."
+
+setting_fatal_casualties_50:0 "Aumento de 50%"
+setting_fatal_casualties_50_desc:0 "O número de baixas fatais em combate é aumentado em 50%, tornando as batalhas mais mortais."
+
+setting_fatal_casualties_60:0 "Aumento de 60%"
+setting_fatal_casualties_60_desc:0 "O número de baixas fatais em combate é aumentado em 60%, tornando as batalhas mais mortais."
+
+setting_fatal_casualties_70:0 "Aumento de 70%"
+setting_fatal_casualties_70_desc:0 "O número de baixas fatais em combate é aumentado em 70%, tornando as batalhas mais mortais."
+
+setting_fatal_casualties_80:0 "Aumento de 80%"
+setting_fatal_casualties_80_desc:0 "O número de baixas fatais em combate é aumentado em 80%, tornando as batalhas mais mortais."
+
+setting_fatal_casualties_90:0 "Aumento de 90%"
+setting_fatal_casualties_90_desc:0 "O número de baixas fatais em combate é aumentado em 90%, tornando as batalhas mais mortais."
+
+setting_fatal_casualties_100:0 "Aumento de 100%"
+setting_fatal_casualties_100_desc:0 "O número de baixas fatais em combate é aumentado em 100%, tornando as batalhas mais mortais."
+
+setting_fatal_casualties_disabled:0 "Desativado (Padrão)"
+setting_fatal_casualties_disabled_desc:0 ""
+
+max_combat_roll_10:0 "Dificuldade"
+max_combat_roll_20:0 "Dificuldade"
+max_combat_roll_30:0 "Dificuldade"
+max_combat_roll_40:0 "Dificuldade"
+max_combat_roll_50:0 "Dificuldade"
+max_combat_roll_60:0 "Dificuldade"
+max_combat_roll_70:0 "Dificuldade"
+max_combat_roll_80:0 "Dificuldade"
+max_combat_roll_90:0 "Dificuldade"
+max_combat_roll_100:0 "Dificuldade"
+
+rule_max_combat_roll_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Rolagem de Combate"
+setting_max_combat_roll_10:0 "+1 de Aumento"
+setting_max_combat_roll_10_desc:0 "A rolagem máxima de combate para vantagem do comandante é aumentada em 1, adicionando mais imprevisibilidade às batalhas."
+
+setting_max_combat_roll_20:0 "+2 de Aumento"
+setting_max_combat_roll_20_desc:0 "A rolagem máxima de combate para vantagem do comandante é aumentada em 2, adicionando mais imprevisibilidade às batalhas."
+
+setting_max_combat_roll_30:0 "+3 de Aumento"
+setting_max_combat_roll_30_desc:0 "A rolagem máxima de combate para vantagem do comandante é aumentada em 3, adicionando mais imprevisibilidade às batalhas."
+
+setting_max_combat_roll_40:0 "+4 de Aumento"
+setting_max_combat_roll_40_desc:0 "A rolagem máxima de combate para vantagem do comandante é aumentada em 4, adicionando mais imprevisibilidade às batalhas."
+
+setting_max_combat_roll_50:0 "+5 de Aumento"
+setting_max_combat_roll_50_desc:0 "A rolagem máxima de combate para vantagem do comandante é aumentada em 5, adicionando mais imprevisibilidade às batalhas."
+
+setting_max_combat_roll_60:0 "+6 de Aumento"
+setting_max_combat_roll_60_desc:0 "A rolagem máxima de combate para vantagem do comandante é aumentada em 6, adicionando mais imprevisibilidade às batalhas."
+
+setting_max_combat_roll_70:0 "+7 de Aumento"
+setting_max_combat_roll_70_desc:0 "A rolagem máxima de combate para vantagem do comandante é aumentada em 7, adicionando mais imprevisibilidade às batalhas."
+
+setting_max_combat_roll_80:0 "+8 de Aumento"
+setting_max_combat_roll_80_desc:0 "A rolagem máxima de combate para vantagem do comandante é aumentada em 8, adicionando mais imprevisibilidade às batalhas."
+
+setting_max_combat_roll_90:0 "+9 de Aumento"
+setting_max_combat_roll_90_desc:0 "A rolagem máxima de combate para vantagem do comandante é aumentada em 9, adicionando mais imprevisibilidade às batalhas."
+
+setting_max_combat_roll_100:0 "+10 de Aumento"
+setting_max_combat_roll_100_desc:0 "A rolagem máxima de combate para vantagem do comandante é aumentada em 10, adicionando mais imprevisibilidade às batalhas."
+
+setting_max_combat_roll_disabled:0 "Desativado (Padrão)"
+setting_max_combat_roll_disabled_desc:0 ""
+
+rule_information_miv_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Informação do Mod"
+rule_information_miv_2_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Informação do Mod"
+setting_information_miv_enabled:0 "Regras do Jogo"
+setting_information_miv_enabled_desc:0 "MIV permite que regras do jogo sejam ajustadas mesmo após o início de uma campanha. Algumas regras podem exigir salvar e recarregar o jogo para que as alterações sejam aplicadas."
+
+setting_information_miv_2_enabled:0 "Compatibilidade"
+setting_information_miv_2_enabled_desc:0 "MIV é compatível com conquistas, compatível com saves existentes e funciona com outros mods de reforma e conversão total."
+
+siege_effectiveness_10:0 "Dificuldade"
+siege_effectiveness_20:0 "Dificuldade"
+siege_effectiveness_30:0 "Dificuldade"
+siege_effectiveness_40:0 "Dificuldade"
+siege_effectiveness_50:0 "Dificuldade"
+siege_effectiveness_60:0 "Dificuldade"
+siege_effectiveness_70:0 "Dificuldade"
+siege_effectiveness_80:0 "Dificuldade"
+siege_effectiveness_90:0 "Dificuldade"
+siege_effectiveness_100:0 "Dificuldade"
+
+rule_siege_effectiveness_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Efetividade de Cerco"
+setting_siege_effectiveness_10:0 "Aumento de 10%"
+setting_siege_effectiveness_10_desc:0 "O valor de progresso de cerco das armas de cerco é aumentado em 10%, acelerando significativamente os cercos."
+
+setting_siege_effectiveness_20:0 "Aumento de 20%"
+setting_siege_effectiveness_20_desc:0 "O valor de progresso de cerco das armas de cerco é aumentado em 20%, acelerando significativamente os cercos."
+
+setting_siege_effectiveness_30:0 "Aumento de 30%"
+setting_siege_effectiveness_30_desc:0 "O valor de progresso de cerco das armas de cerco é aumentado em 30%, acelerando significativamente os cercos."
+
+setting_siege_effectiveness_40:0 "Aumento de 40%"
+setting_siege_effectiveness_40_desc:0 "O valor de progresso de cerco das armas de cerco é aumentado em 40%, acelerando significativamente os cercos."
+
+setting_siege_effectiveness_50:0 "Aumento de 50%"
+setting_siege_effectiveness_50_desc:0 "O valor de progresso de cerco das armas de cerco é aumentado em 50%, acelerando significativamente os cercos."
+
+setting_siege_effectiveness_60:0 "Aumento de 60%"
+setting_siege_effectiveness_60_desc:0 "O valor de progresso de cerco das armas de cerco é aumentado em 60%, acelerando significativamente os cercos."
+
+setting_siege_effectiveness_70:0 "Aumento de 70%"
+setting_siege_effectiveness_70_desc:0 "O valor de progresso de cerco das armas de cerco é aumentado em 70%, acelerando significativamente os cercos."
+
+setting_siege_effectiveness_80:0 "Aumento de 80%"
+setting_siege_effectiveness_80_desc:0 "O valor de progresso de cerco das armas de cerco é aumentado em 80%, acelerando significativamente os cercos."
+
+setting_siege_effectiveness_90:0 "Aumento de 90%"
+setting_siege_effectiveness_90_desc:0 "O valor de progresso de cerco das armas de cerco é aumentado em 90%, acelerando significativamente os cercos."
+
+setting_siege_effectiveness_100:0 "Aumento de 100%"
+setting_siege_effectiveness_100_desc:0 "O valor de progresso de cerco das armas de cerco é aumentado em 100%, acelerando significativamente os cercos."
+
+setting_siege_effectiveness_disabled:0 "Desativado (Padrão)"
+setting_siege_effectiveness_disabled_desc:0 ""
+
+innovation_speed_10:0 "Dificuldade"
+innovation_speed_20:0 "Dificuldade"
+innovation_speed_30:0 "Dificuldade"
+innovation_speed_40:0 "Dificuldade"
+innovation_speed_50:0 "Dificuldade"
+innovation_speed_60:0 "Dificuldade"
+innovation_speed_70:0 "Dificuldade"
+innovation_speed_80:0 "Dificuldade"
+innovation_speed_90:0 "Dificuldade"
+innovation_speed_100:0 "Dificuldade"
+
+rule_innovation_speed_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Velocidade de Inovação"
+setting_innovation_speed_10:0 "Aumento de 10%"
+setting_innovation_speed_10_desc:0 "A chance base de fascinação cultural é aumentada em 10%, permitindo avançar mais rápido pelas eras."
+
+setting_innovation_speed_20:0 "Aumento de 20%"
+setting_innovation_speed_20_desc:0 "A chance base de fascinação cultural é aumentada em 20%, permitindo avançar mais rápido pelas eras."
+
+setting_innovation_speed_30:0 "Aumento de 30%"
+setting_innovation_speed_30_desc:0 "A chance base de fascinação cultural é aumentada em 30%, permitindo avançar mais rápido pelas eras."
+
+setting_innovation_speed_40:0 "Aumento de 40%"
+setting_innovation_speed_40_desc:0 "A chance base de fascinação cultural é aumentada em 40%, permitindo avançar mais rápido pelas eras."
+
+setting_innovation_speed_50:0 "Aumento de 50%"
+setting_innovation_speed_50_desc:0 "A chance base de fascinação cultural é aumentada em 50%, permitindo avançar mais rápido pelas eras."
+
+setting_innovation_speed_60:0 "Aumento de 60%"
+setting_innovation_speed_60_desc:0 "A chance base de fascinação cultural é aumentada em 60%, permitindo avançar mais rápido pelas eras."
+
+setting_innovation_speed_70:0 "Aumento de 70%"
+setting_innovation_speed_70_desc:0 "A chance base de fascinação cultural é aumentada em 70%, permitindo avançar mais rápido pelas eras."
+
+setting_innovation_speed_80:0 "Aumento de 80%"
+setting_innovation_speed_80_desc:0 "A chance base de fascinação cultural é aumentada em 80%, permitindo avançar mais rápido pelas eras."
+
+setting_innovation_speed_90:0 "Aumento de 90%"
+setting_innovation_speed_90_desc:0 "A chance base de fascinação cultural é aumentada em 90%, permitindo avançar mais rápido pelas eras."
+
+setting_innovation_speed_100:0 "Aumento de 100%"
+setting_innovation_speed_100_desc:0 "A chance base de fascinação cultural é aumentada em 100%, permitindo avançar mais rápido pelas eras."
+
+setting_innovation_speed_disabled:0 "Desativado (Padrão)"
+setting_innovation_speed_disabled_desc:0 ""
+
+rule_miv_ask_to_end_war_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Agressão de Vassalos"
+setting_miv_ask_to_end_war_enabled:0 "Ativado"
+setting_miv_ask_to_end_war_enabled_desc:0 "Um suserano pode pedir para que um vassalo encerre uma guerra ofensiva em troca de compensação."
+setting_miv_ask_to_end_war_disabled:0 "Desativado"
+setting_miv_ask_to_end_war_disabled_desc:0 ""
+
+miv_stop_attacker_vassal_war_interaction:0 "Pedir Fim da Guerra do Vassalo"
+miv_stop_vassal_war_negotiation:2 "Um [suserano|e] pode pedir que um [vassalo|e] encerre uma de suas [guerras|e] em troca de [ouro|e] ou usando um [gancho|e]."
+ASK_STOP_VASSAL_WAR:0 "[TARGET_CHARACTER.GetShortUIName] deve ter uma opinião positiva sobre você."
+
+rule_maa_reinforcement_rate_miv_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Reforço de Tropas"
+setting_maa_reinforcement_rate_miv_enabled:0 "Reforço Mais Lento"
+setting_maa_reinforcement_rate_miv_enabled_desc:0 "Regimentos de Tropas Profissionais se recuperam 5% por mês em vez de 10%, tornando as baixas mais impactantes."
+setting_maa_reinforcement_rate_miv_disabled:0 "Desativado (Padrão)"
+setting_maa_reinforcement_rate_miv_disabled_desc:0 ""
+
+rule_tax_contribution_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Contribuição de Impostos"
+
+setting_tax_contribution_disabled:0 "Desativado (Padrão)"
+setting_tax_contribution_disabled_desc:0 ""
+
+setting_tax_contribution_10r:0 "Redução de 10%"
+setting_tax_contribution_10r_desc:0 "A porcentagem de impostos que os vassalos fornecem ao seu suserano é reduzida em 10%."
+
+setting_tax_contribution_20r:0 "Redução de 20%"
+setting_tax_contribution_20r_desc:0 "A porcentagem de impostos que os vassalos fornecem ao seu suserano é reduzida em 20%."
+
+setting_tax_contribution_30r:0 "Redução de 30%"
+setting_tax_contribution_30r_desc:0 "A porcentagem de impostos que os vassalos fornecem ao seu suserano é reduzida em 30%."
+
+setting_tax_contribution_40r:0 "Redução de 40%"
+setting_tax_contribution_40r_desc:0 "A porcentagem de impostos que os vassalos fornecem ao seu suserano é reduzida em 40%."
+
+setting_tax_contribution_50r:0 "Redução de 50%"
+setting_tax_contribution_50r_desc:0 "A porcentagem de impostos que os vassalos fornecem ao seu suserano é reduzida em 50%."
+
+setting_tax_contribution_60r:0 "Redução de 60%"
+setting_tax_contribution_60r_desc:0 "A porcentagem de impostos que os vassalos fornecem ao seu suserano é reduzida em 60%."
+
+setting_tax_contribution_70r:0 "Redução de 70%"
+setting_tax_contribution_70r_desc:0 "A porcentagem de impostos que os vassalos fornecem ao seu suserano é reduzida em 70%."
+
+setting_tax_contribution_80r:0 "Redução de 80%"
+setting_tax_contribution_80r_desc:0 "A porcentagem de impostos que os vassalos fornecem ao seu suserano é reduzida em 80%."
+
+setting_tax_contribution_90r:0 "Redução de 90%"
+setting_tax_contribution_90r_desc:0 "A porcentagem de impostos que os vassalos fornecem ao seu suserano é reduzida em 90%."
+
+setting_tax_contribution_100r:0 "Redução de 95%"
+setting_tax_contribution_100r_desc:0 "A porcentagem de impostos que os vassalos fornecem ao seu suserano é reduzida em 95%."
+
+tax_contribution_10r:0 "Dificuldade"
+tax_contribution_20r:0 "Dificuldade"
+tax_contribution_30r:0 "Dificuldade"
+tax_contribution_40r:0 "Dificuldade"
+tax_contribution_50r:0 "Dificuldade"
+tax_contribution_60r:0 "Dificuldade"
+tax_contribution_70r:0 "Dificuldade"
+tax_contribution_80r:0 "Dificuldade"
+tax_contribution_90r:0 "Dificuldade"
+tax_contribution_100r:0 "Dificuldade"
+
+rule_miv_oathbreakers_game_rules:0 "#clickable #Bold Vassalos Mais Interativos#!#!: Quebradores de Juramento"
+setting_miv_oathbreakers_enabled:0 "Ativado"
+setting_miv_oathbreakers_enabled_desc:0 "Vassalos que odeiam seu suserano podem tentar traí-lo durante uma guerra, tornando-se quebradores de juramento — uma ofensa punível."
+setting_miv_oathbreakers_disabled:0 "Desativado"
+setting_miv_oathbreakers_disabled_desc:0 ""
+
+miv_oathbreaker:0 "Quebrador de Juramento"
+
+interactive_oathbreaker_tooltip:0 "[CHARACTER.GetShortUIName|V] ([CHARACTER.GetPrimaryTitle.GetNameNoTier]) pode trair seu suserano. (#clickable Quebrador de Juramento#!)"
+
+WILL_BECOME_OATHBREAKER: "Se tornará um Quebrador de Juramento: $VALUE|=+0$"
+
+interactive_oathbreaker_notification:0 "Este vassalo traiu seu suserano durante uma guerra e se tornou um #clickable Quebrador de Juramento#!, uma ofensa punível."
+
+miv_oathbreaker_defects:0 "Vassalo Trai o Suserano"
